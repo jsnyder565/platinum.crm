@@ -10,7 +10,7 @@ class CreatePurchases extends Migration
         Schema::create('purchases', function (Blueprint $table) {
           $table->id();
           $table->string('customer_email');
-          $table->string('purschasable');
+          $table->string('purchasable');
           $table->double('price');
           $table->double('quantity');
           $table->double('total');
