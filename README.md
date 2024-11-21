@@ -3,7 +3,7 @@ Sample PHP CRM site
 
 testing on
 
-https://laravelplayground.com/#/snippets/430ee2ae-b3b7-4275-8dcb-66ed13960705
+https://laravelplayground.com/#/snippets/33a0ef87-a10d-4540-bd9a-d74b3c304328
 
 1. fix db structure
 2. functions for sanitization
