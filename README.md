@@ -3,7 +3,10 @@ Sample PHP CRM site
 
 testing on
 
-https://laravelplayground.com/#/snippets/83cfe5cc-ce9c-4c82-9ae4-efe1aa59b380
+https://laravelplayground.com/#/snippets/430ee2ae-b3b7-4275-8dcb-66ed13960705
 
-with database
-https://laravelplayground.com/#/snippets/88cc59cc-4965-43f1-81f2-a952ccdb3c82
+1. fix db structure
+2. functions for sanitization
+3. api for customers results
+4. function for updating loyalty points
+5. report page
