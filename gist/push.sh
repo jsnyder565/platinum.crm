@@ -15,7 +15,7 @@ function create_gist() {
 
   echo $body
 
-  curl -v -X POST -H "Authorization: token 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" \
+  curl -v -X POST -H "Authorization: token token" \
       -H "Accept: application/vnd.github+json" \
       -d "$body" https://api.github.com/gists
 }
