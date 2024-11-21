@@ -12,16 +12,18 @@ class CreateSubscriberTable extends Migration
           $table->string('name');
           $table->string('email')->unique();
           $table->string('phone_number');
-          $table->timestamp('created')->useCurrent()
+          $table->timestamp('created')->useCurrent();
+          $table->integer('loyalty_points');
           $table->timestamps();
         });
         Schema::create('purchases', function (Blueprint $table) {
           $table->id();
-          $table->string('customer_email')->references('email')->on('customers');
+          $table->string('customer_id')->references('id')->on('customers');
           $table->string('purchasable');
           $table->double('price');
           $table->double('quantity');
           $table->double('total');
+          $table->timestamp('date');
           $table->timestamps();
         });
     }

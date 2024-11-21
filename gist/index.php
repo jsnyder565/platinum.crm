@@ -2,15 +2,12 @@
 
 // database test
 
+Route::get('/purchases', [PurchasesController::class, 'index']);
+
+Route::get('/customers', [CustomerController::class, 'index']);
+
 Route::get('/', function() {
-  $total = Customer::count();
-  $confirmed = $total;//Customer::where('status', 'confirmed')->count();
-  $unconfirmed = $total;//Customer::where('status', 'unconfirmed')->count();
-  $cancelled = $total;//Customer::where('status', 'cancelled')->count();
-  $bounced = $total;//Customer::where('status', 'bounced')->count();
-
-
-  return view('result', compact(
-    'total', 'confirmed', 'unconfirmed', 'cancelled', 'bounced'
-  ));
+  $customers = Customer::all();
+  $purchases = Purchase::all();
+  return view('result', compact('customers', 'purchases'));
 });
