@@ -20,5 +20,5 @@ tail -n +2 "$csv_file" | while IFS=, read customer_email purchasable price quant
       'total' => $total,
       'date' => '$date',
   ];
-  if (validatePurchase(\$p)) Purchase::create(\$p);"
+  if (\$this->validatePurchase(\$p)) Purchase::create(\$p);"
 done

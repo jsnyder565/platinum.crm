@@ -5,7 +5,7 @@
       'phone_number' => '954-772-3098',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -14,7 +14,7 @@
       'phone_number' => '754-434-6706',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -23,7 +23,7 @@
       'phone_number' => '760-832-1280',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -32,7 +32,7 @@
       'phone_number' => '219-864-5639',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -41,7 +41,7 @@
       'phone_number' => '970-500-2065',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -50,7 +50,7 @@
       'phone_number' => '929-785-9408',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -59,7 +59,7 @@
       'phone_number' => '161-806-4114',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -68,7 +68,7 @@
       'phone_number' => '685-618-9177',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -77,7 +77,7 @@
       'phone_number' => '559-956-8719',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -86,7 +86,7 @@
       'phone_number' => '299-956-2080',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -95,7 +95,7 @@
       'phone_number' => '723-164-4625',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -104,7 +104,7 @@
       'phone_number' => '358-895-2607',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -113,7 +113,7 @@
       'phone_number' => '640-244-2348',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -122,7 +122,7 @@
       'phone_number' => '355-536-8806',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -131,7 +131,7 @@
       'phone_number' => '872-487-2447',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -140,7 +140,7 @@
       'phone_number' => '760-987-4856',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -149,7 +149,7 @@
       'phone_number' => '339-652-3482',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -158,7 +158,7 @@
       'phone_number' => '896-423-4681',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -167,7 +167,7 @@
       'phone_number' => '482-656-2445',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   
 
   $c = [
@@ -176,5 +176,5 @@
       'phone_number' => '496-999-3437',
       'loyalty_points' => 0,
   ];
-  if (validateCustomer($c)) Customer::create($c);
+  if ($this->validateCustomer($c)) Customer::create($c);
   

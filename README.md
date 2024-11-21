@@ -13,3 +13,23 @@ TODO
 
 -add filters for APIs
 -add report endpoint
+
+
+SETUP
+
+-install git
+
+    brew install git
+
+-install php
+
+    brew install php
+
+-install homebrew
+
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
+
+-install composer
+-install laravel
+    brew install laravel
