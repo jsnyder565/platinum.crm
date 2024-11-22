@@ -27,9 +27,9 @@ Route::get('/report', function() {
             strftime('%m', p.date) AS month,
             COUNT(DISTINCT c.id) AS total_customers,
             SUM(ROUND(p.quantity / 10, 0) + p.total) AS total_points,
-            AVG(p.total) AS average_spend,
+            ROUND(AVG(p.total),2) AS average_spend,
             SUM(ROUND(p.quantity, 0)) as total_items,
-            ROUND(SUM(p.total), 0) as total_revenue
+            SUM(p.total) as total_revenue
         FROM purchases p
         INNER JOIN customers c ON p.customer_id = c.id
         GROUP BY year, month

@@ -5,6 +5,7 @@
     <thead>
         <tr>
             <th>Month</th>
+            <th>Total Customers</th>
             <th>Average Spend</th>
             <th>Total Points Awarded</th>
             <th>Total Items Sold</th>
