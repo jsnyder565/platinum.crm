@@ -7,12 +7,20 @@ use App\Http\Controllers\CustomerController;
 use App\Models\Customer;
 use App\Models\Purchase;
 
-//Route::get('/', function () { return view('welcome'); });
-
+// Purchase API
 Route::get('/purchases', [PurchaseController::class, 'index']);
 
+// Customer API
 Route::get('/customers', [CustomerController::class, 'index']);
 
+// Raw database view
+Route::get('/', function() {
+    $customers = Customer::all(); 
+    $purchases = Purchase::all();
+    return view('result', compact('customers', 'purchases'));
+});
+
+// Month by Month report
 Route::get('/report', function() {
     $totalCustomers = DB::table('customers')->selectRaw("count(*) as total")->value("total");
     $totalPurchases = DB::table('purchases')->selectRaw("count(*) as total")->value("total");
@@ -39,11 +47,4 @@ Route::get('/report', function() {
     );
     return view('report', compact('totalCustomers', 'totalPurchases', 'months'));
 });
-
-Route::get('/', function() {
-    $customers = Customer::all(); 
-    $purchases = Purchase::all();
-    return view('result', compact('customers', 'purchases'));
-});
-
 
