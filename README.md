@@ -7,34 +7,33 @@ A small site / API for customers and purchases.
 Assumes the site is running locally on port 8000.
 
 - [Main Page](http://127.0.0.1:8000/) shows a full list of all customers and purchases.
-- [Report Page](http://127.0.0.1:8000/report]) shows a month by month.
+- [Report Page](http://127.0.0.1:8000/report) shows a month by month.
 - [Customers API](http://127.0.0.1:8000/customers) returns customers as JSON.
 - [Purchases API](http://127.0.0.1:8000/purchases) returns purchases as JSON.
 
--**index.php**           Defines routes /, /customers and /purchases
--**tables.php**          Creates the database tables
--**model.php**           Defines model classes
--**bootstrap.php**       Inserts the actual data, validates, formats, calculate loyalty_points
--**result.blade.php**    Shows all customers and purchases in a table
--**controllers.php**     Contains API controllers that return json records.
-
-
-
 # SETUP
 
-Uses the default sqllite database that's created by default in Laravel.
+Uses Laravel's built in sqllite database.
 
--install homebrew
+- install homebrew
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
 
--install dependencies
+- install dependencies
 
     brew install git
     brew install php
     brew install composer
     brew install laravel
+
+- refresh the database
+
+    artisan migrate:fresh
+
+- run the site
+
+    artisan serve
 
 # Source Code
 
