@@ -2,6 +2,22 @@
 
 A small site / API for customers and purchases.
 
+### Project Requirements
+
+- customers table with columns id, name, email, phone_number, loyalty_points, created_at.
+- purchase_history table with columns id, customer_id, purchasable, price, quantity, total, purchase_date.
+- customer email should be unique.
+- customer email should be converted to lowercase.
+- customer name should only contain alphabetic characters.
+- email should be properly formatted.
+- date should be formatted as 'YYYY-MM-DD'.
+- phone number should be formatted as 'XXX-XXX-XXXX'.
+- customers API should support filters (min_date, max_date, min_spend, max_spend).
+- customers loyalty_points = 1 per 10 items purchased + 1 per 10 dollars spent
+- loyalty_points only counts purchases starting from jan 2022.
+- report should have one row per month in ascending order
+- report should have columns average_spend, total_points 
+
 ### Endpoints
 
 Assumes the site is running locally on port 8000.
@@ -11,7 +27,7 @@ Assumes the site is running locally on port 8000.
 - [Customers API](http://127.0.0.1:8000/customers) returns customers as JSON.
 - [Purchases API](http://127.0.0.1:8000/purchases) returns purchases as JSON.
 
-## Required Setup
+### Required Setup
 
 I used homebrew, git, php, composer, and laravel for this project.
 
@@ -28,7 +44,7 @@ I used homebrew, git, php, composer, and laravel for this project.
     brew install laravel
 ```
 
-### Running Locally
+## Running Locally
 
 These commands should be run from the [root directory](laravel/crm) of the laravel site.
 
@@ -40,7 +56,7 @@ These commands should be run from the [root directory](laravel/crm) of the larav
 ```
     artisan serve
 ```
-## Source Code
+### Source Code
 
 Laravel creates a bunch of files by default.
 Here are the ones that were added/modified for this project.
@@ -55,7 +71,7 @@ Here are the ones that were added/modified for this project.
 - [CustomerController.php](laravel/crm/app/Http/Controllers/CustomerController.php)
 - [PurchaseController.php](laravel/crm/app/Http/Controllers/PurchaseController.php)
 
-## Data Import
+### Data Import
 
 Used a script to parse [purchase_history.csv](data/purchase_history.csv) and [customers.csv](data/customers.csv) and generate a migration file that adds all the rows with validation.  This part could be rewritten since it doesn't need to run on laravelplayground.com anymore.
 
