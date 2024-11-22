@@ -16,7 +16,28 @@ Route::get('/customers', [CustomerController::class, 'index']);
 Route::get('/report', function() {
     $totalCustomers = DB::table('customers')->selectRaw("count(*) as total")->value("total");
     $totalPurchases = DB::table('purchases')->selectRaw("count(*) as total")->value("total");
-    return view('report', compact('totalCustomers', 'totalPurchases'));
+    $months = DB::select(<<<SQL
+        select
+            year||'-'||month as month,
+            total_customers, total_points, average_spend, total_items, total_revenue
+        from 
+        (
+        SELECT
+            strftime('%Y', p.date) AS year,
+            strftime('%m', p.date) AS month,
+            COUNT(DISTINCT c.id) AS total_customers,
+            SUM(ROUND(p.quantity / 10, 0) + p.total) AS total_points,
+            AVG(p.total) AS average_spend,
+            SUM(ROUND(p.quantity, 0)) as total_items,
+            ROUND(SUM(p.total), 0) as total_revenue
+        FROM purchases p
+        INNER JOIN customers c ON p.customer_id = c.id
+        GROUP BY year, month
+        ORDER BY year ASC, month ASC
+        ) x;
+        SQL
+    );
+    return view('report', compact('totalCustomers', 'totalPurchases', 'months'));
 });
 
 Route::get('/', function() {

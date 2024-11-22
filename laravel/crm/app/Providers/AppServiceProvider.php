@@ -14,7 +14,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->bind('MyService', function ($app) {
+        $this->app->bind('ValidationHelpers', function ($app) {
             return new ValidationHelpers();
         });
     }
