@@ -16,7 +16,7 @@ A small site / API for customers and purchases.
 - customers loyalty_points = 1 per 10 items purchased + 1 per 10 dollars spent
 - loyalty_points only counts purchases starting from jan 2022.
 - report should have one row per month in ascending order
-- report should have columns average_spend, total_points 
+- report should have columns average_spend, total_points, 
 
 ### Endpoints
 
@@ -27,9 +27,9 @@ Assumes the site is running locally on port 8000.
 - [Customers API](http://127.0.0.1:8000/customers) returns customers as JSON.
 - [Purchases API](http://127.0.0.1:8000/purchases) returns purchases as JSON.
 
-### Required Setup
+### Preliminary Setup
 
-I used homebrew, git, php, composer, and laravel for this project.
+I used mac OS, homebrew, git, php, composer, and laravel for this project.
 
 - install homebrew
 ```
@@ -50,13 +50,13 @@ These commands should be run from the [root directory](laravel/crm) of the larav
 
 - Refresh the database (Uses Laravel's built in sqllite database).
 ```
-    artisan migrate:fresh
+    php artisan migrate:fresh
 ```
 - Host the site locally (defaulted to port 8000).
 ```
-    artisan serve
+    php artisan serve
 ```
-### Source Code
+## Source Code
 
 Laravel creates a bunch of files by default.
 Here are the ones that were added/modified for this project.
@@ -66,14 +66,14 @@ Here are the ones that were added/modified for this project.
 - [Database Tables](laravel/crm/database/migrations/0001_01_01_000003_create_tables.php)
 - [Imported Rows](laravel/crm/database/migrations/0001_01_01_000004_create_rows.php)
 - [Routes](laravel/crm/routes/web.php)
-- [Default View](laravel/crm/resources/views/report.blade.php)
-- [Report View](laravel/crm/resources/views/result.blade.php)
+- [Report View](laravel/crm/resources/views/report.blade.php)
+- [Tables View](laravel/crm/resources/views/result.blade.php)
 - [CustomerController.php](laravel/crm/app/Http/Controllers/CustomerController.php)
 - [PurchaseController.php](laravel/crm/app/Http/Controllers/PurchaseController.php)
 
 ### Data Import
 
-Used a script to parse [purchase_history.csv](data/purchase_history.csv) and [customers.csv](data/customers.csv) and generate a migration file that adds all the rows with validation.  This part could be rewritten since it doesn't need to run on laravelplayground.com anymore.
+Used a script to parse [purchase_history.csv](data/purchase_history.csv) and [customers.csv](data/customers.csv) and generate a migration file that adds all the rows with validation.  This part could be rewritten since it doesn't need to run on laravelplayground.com anymore.  Ideally the controller would insert the data, and enforce validation at this point.  All updates would go through the API Controller.
 
 - [Parse Customers](data/parse_customers.sh)
 - [Parse Purchases](data/parse_purchases.sh)

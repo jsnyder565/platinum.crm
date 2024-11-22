@@ -24,6 +24,7 @@ return new class extends Migration
     if (!preg_match('/^\d{3}-\d{3}-\d{4}$/', $c['phone_number'])) return false;
     if (!preg_match('/^[a-zA-Z ]+$/', $c['name'])) return false;
     if (!filter_var($c['email'], FILTER_VALIDATE_EMAIL)) return false;
+    $c['email'] = strtolower($c['email']);
     return true;
   }
 
