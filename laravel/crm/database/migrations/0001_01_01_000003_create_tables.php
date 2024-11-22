@@ -17,6 +17,7 @@ return new class extends Migration
       $table->string('email')->unique(); //customer email should be unique.
       $table->string('phone_number');
       $table->integer('loyalty_points');
+      $table->double('total_spend');
       $table->timestamps();
     });
     Schema::create('purchases', function (Blueprint $table) {

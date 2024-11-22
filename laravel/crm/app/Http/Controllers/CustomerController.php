@@ -33,6 +33,16 @@ class CustomerController extends Controller
             $q->where('created_at', '<=', new DateTime($max_date));
         }
 
+        // Filter by total_spend
+        $min_spend = $request->input('min_spend');
+        if ($min_spend) {
+            $q->where('total_spend', '>=', $min_spend);
+        }
+        $max_spend = $request->input('max_spend');
+        if ($max_spend) {
+            $q->where('total_spend', '<=', $max_spend);
+        }
+
         $r = $q->get();
         return response()->json($r);
     }

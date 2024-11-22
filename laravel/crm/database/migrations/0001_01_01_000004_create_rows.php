@@ -11,6 +11,43 @@ use function Psy\debug;
 return new class extends Migration
 {
 
+  function updateLoyaltyPoints() {
+    $customers = Customer::all();
+    foreach ($customers as $customer) {
+      $purchases = Purchase::where('customer_id', $customer->id)->where('purchase_date >= "2022-01-01"')->get();
+      if ($purchases == NULL) continue;
+      
+      // Sum all Items
+      $totalAmount = 0;
+      $totalItems = 0;
+      foreach ($purchases as $purchase) {
+        $totalItems += $purchase->quantity;
+        $totalAmount += $purchase->total;
+      }
+
+      // Update the customer's total loyalty points
+      $customer->loyalty_points = floor($totalItems / 10) + floor($totalAmount / 10);
+      $customer->save();
+    }
+  }
+
+  function updateTotalSpend() {
+    $customers = Customer::all();
+    foreach ($customers as $customer) {
+      $purchases = Purchase::where('customer_id', $customer->id)->get();
+      if ($purchases == NULL) continue;
+      $totalAmount = 0;
+
+      foreach ($purchases as $purchase) {
+        $totalAmount += $purchase->total;
+      }
+
+      // Update the customer's total loyalty points
+      $customer->total_spend = $totalAmount;
+      $customer->save();
+    }
+  }
+
   // return true if date should is formatted as 'YYYY-MM-DD'.
   function isValidDate($dateString,$dateTime)
   {
@@ -57,22 +94,10 @@ return new class extends Migration
     include '/users/julian/src/platinum.crm/data/rows.php';
 
     // Calculate loyalty_points
-    $customers = Customer::all();
-    foreach ($customers as $customer) {
-      $purchases = Purchase::where('customer_id', $customer->id)->get();
-      $totalAmount = 0;
-      $totalItems = 0;
-      if ($purchases == NULL) continue;
+    $this->updateLoyaltyPoints();
 
-      foreach ($purchases as $purchase) {
-        $totalItems += $purchase->quantity;
-        $totalAmount += $purchase->total;
-      }
-
-      // Update the customer's total loyalty points
-      $customer->loyalty_points = floor($totalItems / 10) + floor($totalAmount / 10);
-      $customer->save();
-    }
+    // Calculate total_spend
+    $this->updateTotalSpend();
   }
 
   /**

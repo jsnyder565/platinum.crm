@@ -16,6 +16,7 @@ tail -n +2 "$csv_file" | while IFS=, read name email phone; do
       'email' => '$email',
       'phone_number' => '$phone',
       'loyalty_points' => 0,
+      'total_spend' => 0,
   ];
   if (\$this->validateCustomer(\$c)) Customer::create(\$c);
   "

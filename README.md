@@ -6,10 +6,10 @@ A small site / API for customers and purchases.
 
 - customers table with columns id, name, email, phone_number, loyalty_points, created_at.
 - purchase_history table with columns id, customer_id, purchasable, price, quantity, total, purchase_date.
+- customer name should only contain alphabetic characters.
 - customer email should be unique.
 - customer email should be converted to lowercase.
-- customer name should only contain alphabetic characters.
-- email should be properly formatted.
+- customer email should be properly formatted.
 - date should be formatted as 'YYYY-MM-DD'.
 - phone number should be formatted as 'XXX-XXX-XXXX'.
 - customers API should support filters (min_date, max_date, min_spend, max_spend).
