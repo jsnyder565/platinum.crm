@@ -57,8 +57,8 @@ Here are the ones that were added/modified for this project.
 
 ## Data Import
 
-Used a script to parse purchase_history.csv and customers.csv and generate a migration file that adds all the rows with validation.  This part could be rewritten since it doesn't need to run laravelplayground.com anymore.
+Used a script to parse [purchase_history.csv](data/purchase_history.csv) and [customers.csv](data/customers.csv) and generate a migration file that adds all the rows with validation.  This part could be rewritten since it doesn't need to run laravelplayground.com anymore.
 
-- [Parse Customers](parse_customers.sh)
-- [Parse Purchases](parse_purchases.sh)
+- [Parse Customers](data/parse_customers.sh)
+- [Parse Purchases](data/parse_purchases.sh)
 - [Generated Rows](rows.php)
