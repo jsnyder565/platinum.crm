@@ -11,6 +11,7 @@ use function Psy\debug;
 return new class extends Migration
 {
 
+  // return true if date should is formatted as 'YYYY-MM-DD'.
   function isValidDate($dateString,$dateTime)
   {
     if ($dateTime && $dateTime->format('Y-m-d') === $dateString)
@@ -19,15 +20,25 @@ return new class extends Migration
       return false;
   }
 
+  // return true if the customer is valid
   function validateCustomer($c)
   {
+    // phone number should be formatted as 'XXX-XXX-XXXX'.
     if (!preg_match('/^\d{3}-\d{3}-\d{4}$/', $c['phone_number'])) return false;
+
+    // customer name should only contain alphabetic characters.
     if (!preg_match('/^[a-zA-Z ]+$/', $c['name'])) return false;
+    
+    // email should be properly formatted.
     if (!filter_var($c['email'], FILTER_VALIDATE_EMAIL)) return false;
+
+    // customer email should be converted to lowercase.
     $c['email'] = strtolower($c['email']);
+
     return true;
   }
 
+  // Return ture if the purchase is valid.
   function validatePurchase($c)
   {
     $dateString = $c['purchase_date_string'];
@@ -44,18 +55,13 @@ return new class extends Migration
   public function up(): void
   {
 
-    // This part is auto-generated
-    /******** ADD ROWS BEGIN ****/
+    // Include auto generated rows.php.  containing the actual data to import.
     include '/users/julian/src/platinum.crm/data/rows.php';
-    /******** ADD ROWS END ******/
 
-
-    //DB::update('update customers as c set c.loyalty_points = (select count(p.id) DIV 10 + sum(p.total) DIV 1 from purchases as p where p.date >= 2022-01-01 and p.customer_id = c.id)');
+    // Calculate loyalty_points
     $customers = Customer::all();
-
     foreach ($customers as $customer) {
       $purchases = Purchase::where('customer_id', $customer->id)->get();
-      //$purchases = $customer->purchases; // Assuming a 'purchases' relationship
       $totalAmount = 0;
       $totalItems = 0;
       if ($purchases == NULL) continue;
