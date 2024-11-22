@@ -28,18 +28,20 @@
 <table>
     <thead>
         <tr>
-            <th>Customer ID</th>
-            <th>Purchasable</th>
-            <th>Price</th>
-            <th>Quantity</th>
-            <th>Total</th>
-            <th>Date</th>
-            <th>DateString</th>
+            <th>ID (id)</th>
+            <th>Customer ID (customer_id)</th>
+            <th>Purchasable (purchasable)</th>
+            <th>Price (price)</th>
+            <th>Quantity (quantity)</th>
+            <th>Total (total)</th>
+            <th>Date (purchase_date)</th>
+            <th>DateString (purchase_date_string)</th>
         </tr>
     </thead>
     <tbody>
         @foreach ($purchases as $purchase)
             <tr>
+                <td>{{ $purchase->id }}</td>
                 <td>{{ $purchase->customer_id }}</td>
                 <td>{{ $purchase->purchasable }}</td>
                 <td>{{ $purchase->price }}</td>
