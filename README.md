@@ -54,3 +54,11 @@ Here are the ones that were added/modified for this project.
 - [Report View](laravel/crm/resources/views/result.blade.php)
 - [CustomerController.php](laravel/crm/app/Http/Controllers/CustomerController.php)
 - [PurchaseController.php](laravel/crm/app/Http/Controllers/PurchaseController.php)
+
+## Data Import
+
+Used a script to parse purchase_history.csv and customers.csv and generate a migration file that adds all the rows with validation.  This part could be rewritten since it doesn't need to run laravelplayground.com anymore.
+
+- [Parse Customers](parse_customers.sh)
+- [Parse Purchases](parse_purchases.sh)
+- [Generated Rows](rows.php)
