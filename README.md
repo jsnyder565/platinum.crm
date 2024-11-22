@@ -6,10 +6,10 @@ A small site / API for customers and purchases.
 
 Assumes the site is running locally on port 8000.
 
--(Main Page)[http://127.0.0.1:8000/] shows a full list of all customers and purchases.
--(Report Page)[http://127.0.0.1:8000/report] shows a month by month.
--(Customers API)[http://127.0.0.1:8000/customers] returns customers as JSON.
--(Purchases API)[http://127.0.0.1:8000/purchases] returns purchases as JSON.
+-[Main Page](http://127.0.0.1:8000/) shows a full list of all customers and purchases.
+-[Report Page](http://127.0.0.1:8000/report]) shows a month by month.
+-[Customers API](http://127.0.0.1:8000/customers) returns customers as JSON.
+-[Purchases API](http://127.0.0.1:8000/purchases) returns purchases as JSON.
 
 -**index.php**           Defines routes /, /customers and /purchases
 -**tables.php**          Creates the database tables
