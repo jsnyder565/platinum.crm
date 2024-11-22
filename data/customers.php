@@ -1,11 +1,12 @@
 
   $c = [
       'name' => 'Richard Myers',
-      'email' => 'jillian25@wElch.org',
+      'email' => 'jillian25@welch.org',
       'phone_number' => '954-772-3098',
       'loyalty_points' => 0,
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
+  
 
   $c = [
       'name' => 'Chelsea Holmes',
@@ -14,6 +15,7 @@
       'loyalty_points' => 0,
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
+  
 
   $c = [
       'name' => 'Brandon Bennett',
@@ -23,6 +25,7 @@
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
   
+
   $c = [
       'name' => 'David Smith',
       'email' => 'rphillips@sutton-bates.com',
@@ -31,6 +34,7 @@
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
   
+
   $c = [
       'name' => 'Dennis Cruz',
       'email' => 'michellehenderson@gmail.com',
@@ -39,6 +43,7 @@
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
   
+
   $c = [
       'name' => 'Michael Johnson',
       'email' => 'carolgriffith@hotmail.com',
@@ -47,6 +52,7 @@
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
   
+
   $c = [
       'name' => 'Linda Krueger',
       'email' => 'curtisevans@yahoo.com',
@@ -55,6 +61,7 @@
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
   
+
   $c = [
       'name' => 'Carrie Jones',
       'email' => 'brittney21@stewart.com',
@@ -63,6 +70,7 @@
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
   
+
   $c = [
       'name' => 'Spencer Richards',
       'email' => 'ehodges@yahoo.com',
@@ -71,6 +79,7 @@
   ];
   if ($this->validateCustomer($c)) Customer::create($c);
   
+
   $c = [
       'name' => 'Rebecca King',
       'email' => 'tina89@hotmail.com',

@@ -194,7 +194,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-18');
     $p->purchase_date_string = '2024-07-18';
@@ -212,7 +211,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-13');
     $p->purchase_date_string = '2022-01-13';
@@ -230,7 +228,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-14');
     $p->purchase_date_string = '2022-03-14';
@@ -248,7 +245,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-09-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-09-11');
     $p->purchase_date_string = '2021-09-11';
@@ -266,7 +262,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-18');
     $p->purchase_date_string = '2021-11-18';
@@ -284,7 +279,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-13');
     $p->purchase_date_string = '2022-02-13';
@@ -302,7 +296,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-02-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-02-07');
     $p->purchase_date_string = '2023-02-07';
@@ -320,7 +313,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-06');
     $p->purchase_date_string = '2022-11-06';
@@ -338,7 +330,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-04');
     $p->purchase_date_string = '2020-06-04';
@@ -356,7 +347,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-12');
     $p->purchase_date_string = '2021-11-12';
@@ -374,7 +364,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-02');
     $p->purchase_date_string = '2024-09-02';
@@ -392,7 +381,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-01');
     $p->purchase_date_string = '2021-06-01';
@@ -410,7 +398,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-02-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-02-04');
     $p->purchase_date_string = '2020-02-04';
@@ -428,7 +415,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-12-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-12-27');
     $p->purchase_date_string = '2021-12-27';
@@ -446,7 +432,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-30');
     $p->purchase_date_string = '2021-11-30';
@@ -464,7 +449,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-09');
     $p->purchase_date_string = '2023-05-09';
@@ -482,7 +466,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-04');
     $p->purchase_date_string = '2023-03-04';
@@ -500,7 +483,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-18');
     $p->purchase_date_string = '2020-10-18';
@@ -518,7 +500,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-05-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-05-21');
     $p->purchase_date_string = '2022-05-21';
@@ -536,7 +517,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-27');
     $p->purchase_date_string = '2022-09-27';
@@ -554,7 +534,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-11-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-11-23');
     $p->purchase_date_string = '2020-11-23';
@@ -572,7 +551,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-08');
     $p->purchase_date_string = '2021-01-08';
@@ -590,7 +568,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-04');
     $p->purchase_date_string = '2024-07-04';
@@ -608,7 +585,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-09-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-09-15');
     $p->purchase_date_string = '2020-09-15';
@@ -626,7 +602,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-09-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-09-27');
     $p->purchase_date_string = '2020-09-27';
@@ -644,7 +619,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-27');
     $p->purchase_date_string = '2024-07-27';
@@ -662,7 +636,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-22');
     $p->purchase_date_string = '2021-04-22';
@@ -680,7 +653,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-22');
     $p->purchase_date_string = '2022-04-22';
@@ -698,7 +670,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-08');
     $p->purchase_date_string = '2024-09-08';
@@ -716,7 +687,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-08');
     $p->purchase_date_string = '2023-08-08';
@@ -734,7 +704,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-12-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-12-23');
     $p->purchase_date_string = '2021-12-23';
@@ -752,7 +721,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-24');
     $p->purchase_date_string = '2021-01-24';
@@ -770,7 +738,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-20');
     $p->purchase_date_string = '2021-07-20';
@@ -788,7 +755,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-05-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-05-20');
     $p->purchase_date_string = '2020-05-20';
@@ -806,7 +772,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-11-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-11-21');
     $p->purchase_date_string = '2020-11-21';
@@ -824,7 +789,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-07');
     $p->purchase_date_string = '2022-10-07';
@@ -842,7 +806,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-27');
     $p->purchase_date_string = '2024-05-27';
@@ -860,7 +823,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-09-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-09-21');
     $p->purchase_date_string = '2021-09-21';
@@ -878,7 +840,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-23');
     $p->purchase_date_string = '2023-08-23';
@@ -896,7 +857,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-04');
     $p->purchase_date_string = '2023-06-04';
@@ -914,7 +874,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-17');
     $p->purchase_date_string = '2023-12-17';
@@ -932,7 +891,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-22');
     $p->purchase_date_string = '2022-06-22';
@@ -950,7 +908,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-02-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-02-01');
     $p->purchase_date_string = '2020-02-01';
@@ -968,7 +925,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-03');
     $p->purchase_date_string = '2022-11-03';
@@ -986,7 +942,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-24');
     $p->purchase_date_string = '2023-06-24';
@@ -1004,7 +959,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-10');
     $p->purchase_date_string = '2023-03-10';
@@ -1022,7 +976,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-09');
     $p->purchase_date_string = '2023-06-09';
@@ -1040,7 +993,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-21');
     $p->purchase_date_string = '2022-01-21';
@@ -1058,7 +1010,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-18');
     $p->purchase_date_string = '2021-07-18';
@@ -1076,7 +1027,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-17');
     $p->purchase_date_string = '2023-08-17';
@@ -1094,7 +1044,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-06');
     $p->purchase_date_string = '2020-03-06';
@@ -1112,7 +1061,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-19');
     $p->purchase_date_string = '2022-11-19';
@@ -1130,7 +1078,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-08-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-08-13');
     $p->purchase_date_string = '2020-08-13';
@@ -1148,7 +1095,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-03');
     $p->purchase_date_string = '2020-03-03';
@@ -1166,7 +1112,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-13');
     $p->purchase_date_string = '2022-12-13';
@@ -1184,7 +1129,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-16');
     $p->purchase_date_string = '2022-03-16';
@@ -1202,7 +1146,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-14');
     $p->purchase_date_string = '2021-03-14';
@@ -1220,7 +1163,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-02');
     $p->purchase_date_string = '2023-01-02';
@@ -1238,7 +1180,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-20');
     $p->purchase_date_string = '2022-10-20';
@@ -1256,7 +1197,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-13');
     $p->purchase_date_string = '2024-05-13';
@@ -1274,7 +1214,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-28');
     $p->purchase_date_string = '2022-03-28';
@@ -1292,7 +1231,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-17');
     $p->purchase_date_string = '2020-01-17';
@@ -1310,7 +1248,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-01');
     $p->purchase_date_string = '2022-10-01';
@@ -1328,7 +1265,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-08-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-08-12');
     $p->purchase_date_string = '2022-08-12';
@@ -1346,7 +1282,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-27');
     $p->purchase_date_string = '2021-01-27';
@@ -1364,7 +1299,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-12');
     $p->purchase_date_string = '2020-01-12';
@@ -1382,7 +1316,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-08');
     $p->purchase_date_string = '2022-12-08';
@@ -1400,7 +1333,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-25');
     $p->purchase_date_string = '2021-07-25';
@@ -1418,7 +1350,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-22');
     $p->purchase_date_string = '2024-04-22';
@@ -1436,7 +1367,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-19');
     $p->purchase_date_string = '2023-05-19';
@@ -1454,7 +1384,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-21');
     $p->purchase_date_string = '2022-06-21';
@@ -1472,7 +1401,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-17');
     $p->purchase_date_string = '2023-11-17';
@@ -1490,7 +1418,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-02-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-02-22');
     $p->purchase_date_string = '2023-02-22';
@@ -1508,7 +1435,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-19');
     $p->purchase_date_string = '2022-10-19';
@@ -1526,7 +1452,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-19');
     $p->purchase_date_string = '2021-06-19';
@@ -1544,7 +1469,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-14');
     $p->purchase_date_string = '2022-07-14';
@@ -1562,7 +1486,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-09');
     $p->purchase_date_string = '2023-05-09';
@@ -1580,7 +1503,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-16');
     $p->purchase_date_string = '2022-07-16';
@@ -1598,7 +1520,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-14');
     $p->purchase_date_string = '2022-01-14';
@@ -1616,7 +1537,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-11');
     $p->purchase_date_string = '2024-04-11';
@@ -1634,7 +1554,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-31');
     $p->purchase_date_string = '2022-03-31';
@@ -1652,7 +1571,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-07-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-07-15');
     $p->purchase_date_string = '2023-07-15';
@@ -1670,7 +1588,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-11');
     $p->purchase_date_string = '2022-04-11';
@@ -1688,7 +1605,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-31');
     $p->purchase_date_string = '2020-10-31';
@@ -1706,7 +1622,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-07');
     $p->purchase_date_string = '2021-04-07';
@@ -1724,7 +1639,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-31');
     $p->purchase_date_string = '2023-03-31';
@@ -1742,7 +1656,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-08-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-08-14');
     $p->purchase_date_string = '2022-08-14';
@@ -1760,7 +1673,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-16');
     $p->purchase_date_string = '2021-04-16';
@@ -1778,7 +1690,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-29');
     $p->purchase_date_string = '2023-08-29';
@@ -1796,7 +1707,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-07-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-07-07');
     $p->purchase_date_string = '2023-07-07';
@@ -1814,7 +1724,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-17');
     $p->purchase_date_string = '2020-04-17';
@@ -1832,7 +1741,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-19');
     $p->purchase_date_string = '2022-12-19';
@@ -1850,7 +1758,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-07');
     $p->purchase_date_string = '2024-03-07';
@@ -1868,7 +1775,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-05-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-05-08');
     $p->purchase_date_string = '2020-05-08';
@@ -1886,7 +1792,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-06-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-06-11');
     $p->purchase_date_string = '2024-06-11';
@@ -1904,7 +1809,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-14');
     $p->purchase_date_string = '2023-06-14';
@@ -1922,7 +1826,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-12');
     $p->purchase_date_string = '2022-07-12';
@@ -1940,7 +1843,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-26');
     $p->purchase_date_string = '2022-06-26';
@@ -1958,7 +1860,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-13');
     $p->purchase_date_string = '2020-03-13';
@@ -1976,7 +1877,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-28');
     $p->purchase_date_string = '2024-02-28';
@@ -1994,7 +1894,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-27');
     $p->purchase_date_string = '2021-10-27';
@@ -2012,7 +1911,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-01');
     $p->purchase_date_string = '2021-04-01';
@@ -2030,7 +1928,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-06');
     $p->purchase_date_string = '2022-01-06';
@@ -2048,7 +1945,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-25');
     $p->purchase_date_string = '2021-11-25';
@@ -2066,7 +1962,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-19');
     $p->purchase_date_string = '2023-08-19';
@@ -2084,7 +1979,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-20');
     $p->purchase_date_string = '2021-06-20';
@@ -2102,7 +1996,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-18');
     $p->purchase_date_string = '2022-12-18';
@@ -2120,7 +2013,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-05-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-05-08');
     $p->purchase_date_string = '2020-05-08';
@@ -2138,7 +2030,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-13');
     $p->purchase_date_string = '2024-05-13';
@@ -2156,7 +2047,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-05-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-05-09');
     $p->purchase_date_string = '2020-05-09';
@@ -2174,7 +2064,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-02');
     $p->purchase_date_string = '2023-08-02';
@@ -2192,7 +2081,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-23');
     $p->purchase_date_string = '2021-06-23';
@@ -2210,7 +2098,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-01');
     $p->purchase_date_string = '2021-06-01';
@@ -2228,7 +2115,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-16');
     $p->purchase_date_string = '2021-03-16';
@@ -2246,7 +2132,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-05-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-05-21');
     $p->purchase_date_string = '2022-05-21';
@@ -2264,7 +2149,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-21');
     $p->purchase_date_string = '2023-08-21';
@@ -2282,7 +2166,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-07');
     $p->purchase_date_string = '2023-05-07';
@@ -2300,7 +2183,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-28');
     $p->purchase_date_string = '2023-01-28';
@@ -2318,7 +2200,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-11');
     $p->purchase_date_string = '2023-11-11';
@@ -2336,7 +2217,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-17');
     $p->purchase_date_string = '2021-06-17';
@@ -2354,7 +2234,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-10');
     $p->purchase_date_string = '2024-05-10';
@@ -2372,7 +2251,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-02');
     $p->purchase_date_string = '2024-02-02';
@@ -2390,7 +2268,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-11');
     $p->purchase_date_string = '2022-03-11';
@@ -2408,7 +2285,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-29');
     $p->purchase_date_string = '2024-09-29';
@@ -2426,7 +2302,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-08-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-08-03');
     $p->purchase_date_string = '2021-08-03';
@@ -2444,7 +2319,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-21');
     $p->purchase_date_string = '2021-10-21';
@@ -2462,7 +2336,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-24');
     $p->purchase_date_string = '2023-08-24';
@@ -2480,7 +2353,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-07');
     $p->purchase_date_string = '2024-04-07';
@@ -2498,7 +2370,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-10');
     $p->purchase_date_string = '2023-03-10';
@@ -2516,7 +2387,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-12');
     $p->purchase_date_string = '2023-12-12';
@@ -2534,7 +2404,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-02-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-02-06');
     $p->purchase_date_string = '2020-02-06';
@@ -2552,7 +2421,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-14');
     $p->purchase_date_string = '2020-06-14';
@@ -2570,7 +2438,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-22');
     $p->purchase_date_string = '2024-03-22';
@@ -2588,7 +2455,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-08');
     $p->purchase_date_string = '2022-07-08';
@@ -2606,7 +2472,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-07-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-07-16');
     $p->purchase_date_string = '2020-07-16';
@@ -2624,7 +2489,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-02-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-02-21');
     $p->purchase_date_string = '2023-02-21';
@@ -2642,7 +2506,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-26');
     $p->purchase_date_string = '2023-12-26';
@@ -2660,7 +2523,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-24');
     $p->purchase_date_string = '2021-03-24';
@@ -2678,7 +2540,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-06-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-06-16');
     $p->purchase_date_string = '2024-06-16';
@@ -2696,7 +2557,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-09');
     $p->purchase_date_string = '2021-11-09';
@@ -2714,7 +2574,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-15');
     $p->purchase_date_string = '2022-10-15';
@@ -2732,7 +2591,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-26');
     $p->purchase_date_string = '2022-06-26';
@@ -2750,7 +2608,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-02-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-02-06');
     $p->purchase_date_string = '2020-02-06';
@@ -2768,7 +2625,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-12');
     $p->purchase_date_string = '2021-10-12';
@@ -2786,7 +2642,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-27');
     $p->purchase_date_string = '2024-08-27';
@@ -2804,7 +2659,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-12');
     $p->purchase_date_string = '2023-03-12';
@@ -2822,7 +2676,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-02');
     $p->purchase_date_string = '2021-07-02';
@@ -2840,7 +2693,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-29');
     $p->purchase_date_string = '2024-03-29';
@@ -2858,7 +2710,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-21');
     $p->purchase_date_string = '2021-01-21';
@@ -2876,7 +2727,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-08');
     $p->purchase_date_string = '2022-11-08';
@@ -2894,7 +2744,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-09-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-09-03');
     $p->purchase_date_string = '2023-09-03';
@@ -2912,7 +2761,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-08');
     $p->purchase_date_string = '2021-01-08';
@@ -2930,7 +2778,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-10-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-10-13');
     $p->purchase_date_string = '2023-10-13';
@@ -2948,7 +2795,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-13');
     $p->purchase_date_string = '2021-10-13';
@@ -2966,7 +2812,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-28');
     $p->purchase_date_string = '2024-02-28';
@@ -2984,7 +2829,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-12-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-12-01');
     $p->purchase_date_string = '2021-12-01';
@@ -3002,7 +2846,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-05-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-05-09');
     $p->purchase_date_string = '2021-05-09';
@@ -3020,7 +2863,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-22');
     $p->purchase_date_string = '2021-10-22';
@@ -3038,7 +2880,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-20');
     $p->purchase_date_string = '2023-11-20';
@@ -3056,7 +2897,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-23');
     $p->purchase_date_string = '2022-06-23';
@@ -3074,7 +2914,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-24');
     $p->purchase_date_string = '2020-01-24';
@@ -3092,7 +2931,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-02-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-02-15');
     $p->purchase_date_string = '2021-02-15';
@@ -3110,7 +2948,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-08');
     $p->purchase_date_string = '2022-02-08';
@@ -3128,7 +2965,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-09-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-09-17');
     $p->purchase_date_string = '2023-09-17';
@@ -3146,7 +2982,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-31');
     $p->purchase_date_string = '2024-08-31';
@@ -3164,7 +2999,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-21');
     $p->purchase_date_string = '2023-11-21';
@@ -3182,7 +3016,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-17');
     $p->purchase_date_string = '2022-12-17';
@@ -3200,7 +3033,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-07');
     $p->purchase_date_string = '2024-05-07';
@@ -3218,7 +3050,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-19');
     $p->purchase_date_string = '2022-04-19';
@@ -3236,7 +3067,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-17');
     $p->purchase_date_string = '2023-06-17';
@@ -3254,7 +3084,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-11-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-11-07');
     $p->purchase_date_string = '2020-11-07';
@@ -3272,7 +3101,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-02');
     $p->purchase_date_string = '2022-04-02';
@@ -3290,7 +3118,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-21');
     $p->purchase_date_string = '2023-05-21';
@@ -3308,7 +3135,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-29');
     $p->purchase_date_string = '2020-04-29';
@@ -3326,7 +3152,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-05');
     $p->purchase_date_string = '2024-07-05';
@@ -3344,7 +3169,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-03');
     $p->purchase_date_string = '2021-06-03';
@@ -3362,7 +3186,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-25');
     $p->purchase_date_string = '2024-09-25';
@@ -3380,7 +3203,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-26');
     $p->purchase_date_string = '2021-01-26';
@@ -3398,7 +3220,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-09');
     $p->purchase_date_string = '2022-03-09';
@@ -3416,7 +3237,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-04');
     $p->purchase_date_string = '2022-02-04';
@@ -3434,7 +3254,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-05-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-05-24');
     $p->purchase_date_string = '2020-05-24';
@@ -3452,7 +3271,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-29');
     $p->purchase_date_string = '2022-12-29';
@@ -3470,7 +3288,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-25');
     $p->purchase_date_string = '2021-01-25';
@@ -3488,7 +3305,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-20');
     $p->purchase_date_string = '2022-06-20';
@@ -3506,7 +3322,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-08-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-08-08');
     $p->purchase_date_string = '2021-08-08';
@@ -3524,7 +3339,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-05');
     $p->purchase_date_string = '2022-01-05';
@@ -3542,7 +3356,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-09');
     $p->purchase_date_string = '2020-04-09';
@@ -3560,7 +3373,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-17');
     $p->purchase_date_string = '2024-08-17';
@@ -3578,7 +3390,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-31');
     $p->purchase_date_string = '2021-10-31';
@@ -3596,7 +3407,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-22');
     $p->purchase_date_string = '2023-11-22';
@@ -3614,7 +3424,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-03');
     $p->purchase_date_string = '2022-04-03';
@@ -3632,7 +3441,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-04-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-04-03');
     $p->purchase_date_string = '2023-04-03';
@@ -3650,7 +3458,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-29');
     $p->purchase_date_string = '2022-09-29';
@@ -3668,7 +3475,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-31');
     $p->purchase_date_string = '2023-12-31';
@@ -3686,7 +3492,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-30');
     $p->purchase_date_string = '2022-11-30';
@@ -3704,7 +3509,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-08-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-08-29');
     $p->purchase_date_string = '2022-08-29';
@@ -3722,7 +3526,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-25');
     $p->purchase_date_string = '2022-11-25';
@@ -3740,7 +3543,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-14');
     $p->purchase_date_string = '2024-04-14';
@@ -3758,7 +3560,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-31');
     $p->purchase_date_string = '2021-10-31';
@@ -3776,7 +3577,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-13');
     $p->purchase_date_string = '2022-06-13';
@@ -3794,7 +3594,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-23');
     $p->purchase_date_string = '2022-07-23';
@@ -3812,7 +3611,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-01');
     $p->purchase_date_string = '2021-07-01';
@@ -3830,7 +3628,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-10');
     $p->purchase_date_string = '2024-10-10';
@@ -3848,7 +3645,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-13');
     $p->purchase_date_string = '2022-01-13';
@@ -3866,7 +3662,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-04');
     $p->purchase_date_string = '2022-09-04';
@@ -3884,7 +3679,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-28');
     $p->purchase_date_string = '2021-10-28';
@@ -3902,7 +3696,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-17');
     $p->purchase_date_string = '2021-03-17';
@@ -3920,7 +3713,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-20');
     $p->purchase_date_string = '2024-03-20';
@@ -3938,7 +3730,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-10');
     $p->purchase_date_string = '2024-05-10';
@@ -3956,7 +3747,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-17');
     $p->purchase_date_string = '2023-05-17';
@@ -3974,7 +3764,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-04');
     $p->purchase_date_string = '2022-11-04';
@@ -3992,7 +3781,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-05');
     $p->purchase_date_string = '2022-02-05';
@@ -4010,7 +3798,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-05');
     $p->purchase_date_string = '2021-03-05';
@@ -4028,7 +3815,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-09-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-09-29');
     $p->purchase_date_string = '2023-09-29';
@@ -4046,7 +3832,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-07');
     $p->purchase_date_string = '2023-08-07';
@@ -4064,7 +3849,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-30');
     $p->purchase_date_string = '2020-06-30';
@@ -4082,7 +3866,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-16');
     $p->purchase_date_string = '2023-12-16';
@@ -4100,7 +3883,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-12');
     $p->purchase_date_string = '2021-07-12';
@@ -4118,7 +3900,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-27');
     $p->purchase_date_string = '2022-12-27';
@@ -4136,7 +3917,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-25');
     $p->purchase_date_string = '2023-08-25';
@@ -4154,7 +3934,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-07-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-07-26');
     $p->purchase_date_string = '2023-07-26';
@@ -4172,7 +3951,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-06-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-06-17');
     $p->purchase_date_string = '2024-06-17';
@@ -4190,7 +3968,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-10-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-10-16');
     $p->purchase_date_string = '2023-10-16';
@@ -4208,7 +3985,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-01');
     $p->purchase_date_string = '2020-06-01';
@@ -4226,7 +4002,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-03');
     $p->purchase_date_string = '2021-07-03';
@@ -4244,7 +4019,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-29');
     $p->purchase_date_string = '2023-01-29';
@@ -4262,7 +4036,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-12');
     $p->purchase_date_string = '2022-02-12';
@@ -4280,7 +4053,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-03');
     $p->purchase_date_string = '2022-04-03';
@@ -4298,7 +4070,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-26');
     $p->purchase_date_string = '2024-05-26';
@@ -4316,7 +4087,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-15');
     $p->purchase_date_string = '2024-09-15';
@@ -4334,7 +4104,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-14');
     $p->purchase_date_string = '2021-06-14';
@@ -4352,7 +4121,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-23');
     $p->purchase_date_string = '2020-03-23';
@@ -4370,7 +4138,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-10-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-10-20');
     $p->purchase_date_string = '2023-10-20';
@@ -4388,7 +4155,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-14');
     $p->purchase_date_string = '2022-06-14';
@@ -4406,7 +4172,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-15');
     $p->purchase_date_string = '2021-10-15';
@@ -4424,7 +4189,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-05');
     $p->purchase_date_string = '2021-07-05';
@@ -4442,7 +4206,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-21');
     $p->purchase_date_string = '2020-06-21';
@@ -4460,7 +4223,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-06');
     $p->purchase_date_string = '2022-04-06';
@@ -4478,7 +4240,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-16');
     $p->purchase_date_string = '2021-03-16';
@@ -4496,7 +4257,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-20');
     $p->purchase_date_string = '2022-04-20';
@@ -4514,7 +4274,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-20');
     $p->purchase_date_string = '2021-10-20';
@@ -4532,7 +4291,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-08-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-08-08');
     $p->purchase_date_string = '2022-08-08';
@@ -4550,7 +4308,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-01');
     $p->purchase_date_string = '2020-01-01';
@@ -4568,7 +4325,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-13');
     $p->purchase_date_string = '2023-05-13';
@@ -4586,7 +4342,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-04');
     $p->purchase_date_string = '2021-10-04';
@@ -4604,7 +4359,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-29');
     $p->purchase_date_string = '2022-11-29';
@@ -4622,7 +4376,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-04-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-04-07');
     $p->purchase_date_string = '2023-04-07';
@@ -4640,7 +4393,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-10');
     $p->purchase_date_string = '2022-10-10';
@@ -4658,7 +4410,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-13');
     $p->purchase_date_string = '2020-10-13';
@@ -4676,7 +4427,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-02');
     $p->purchase_date_string = '2023-08-02';
@@ -4694,7 +4444,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-13');
     $p->purchase_date_string = '2021-11-13';
@@ -4712,7 +4461,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-11');
     $p->purchase_date_string = '2022-03-11';
@@ -4730,7 +4478,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-20');
     $p->purchase_date_string = '2023-05-20';
@@ -4748,7 +4495,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-25');
     $p->purchase_date_string = '2024-07-25';
@@ -4766,7 +4512,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-05-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-05-21');
     $p->purchase_date_string = '2021-05-21';
@@ -4784,7 +4529,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-06');
     $p->purchase_date_string = '2021-04-06';
@@ -4802,7 +4546,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-24');
     $p->purchase_date_string = '2023-06-24';
@@ -4820,7 +4563,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-02');
     $p->purchase_date_string = '2024-10-02';
@@ -4838,7 +4580,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-13');
     $p->purchase_date_string = '2023-11-13';
@@ -4856,7 +4597,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-22');
     $p->purchase_date_string = '2023-05-22';
@@ -4874,7 +4614,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-12-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-12-10');
     $p->purchase_date_string = '2020-12-10';
@@ -4892,7 +4631,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-31');
     $p->purchase_date_string = '2023-03-31';
@@ -4910,7 +4648,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-25');
     $p->purchase_date_string = '2024-04-25';
@@ -4928,7 +4665,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-21');
     $p->purchase_date_string = '2021-03-21';
@@ -4946,7 +4682,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-11-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-11-11');
     $p->purchase_date_string = '2020-11-11';
@@ -4964,7 +4699,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-07');
     $p->purchase_date_string = '2020-04-07';
@@ -4982,7 +4716,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-20');
     $p->purchase_date_string = '2022-09-20';
@@ -5000,7 +4733,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-01');
     $p->purchase_date_string = '2021-11-01';
@@ -5018,7 +4750,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-30');
     $p->purchase_date_string = '2024-07-30';
@@ -5036,7 +4767,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-22');
     $p->purchase_date_string = '2024-09-22';
@@ -5054,7 +4784,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-05-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-05-19');
     $p->purchase_date_string = '2021-05-19';
@@ -5072,7 +4801,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-07');
     $p->purchase_date_string = '2024-05-07';
@@ -5090,7 +4818,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-06');
     $p->purchase_date_string = '2021-06-06';
@@ -5108,7 +4835,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-11');
     $p->purchase_date_string = '2022-01-11';
@@ -5126,7 +4852,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-21');
     $p->purchase_date_string = '2021-10-21';
@@ -5144,7 +4869,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-10-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-10-13');
     $p->purchase_date_string = '2023-10-13';
@@ -5162,7 +4886,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-05-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-05-27');
     $p->purchase_date_string = '2021-05-27';
@@ -5180,7 +4903,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-12');
     $p->purchase_date_string = '2023-03-12';
@@ -5198,7 +4920,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-12-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-12-26');
     $p->purchase_date_string = '2021-12-26';
@@ -5216,7 +4937,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-23');
     $p->purchase_date_string = '2023-11-23';
@@ -5234,7 +4954,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-14');
     $p->purchase_date_string = '2024-09-14';
@@ -5252,7 +4971,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-06');
     $p->purchase_date_string = '2023-05-06';
@@ -5270,7 +4988,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-07-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-07-11');
     $p->purchase_date_string = '2020-07-11';
@@ -5288,7 +5005,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-12');
     $p->purchase_date_string = '2023-12-12';
@@ -5306,7 +5022,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-05');
     $p->purchase_date_string = '2022-01-05';
@@ -5324,7 +5039,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-05-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-05-23');
     $p->purchase_date_string = '2021-05-23';
@@ -5342,7 +5056,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-08');
     $p->purchase_date_string = '2020-01-08';
@@ -5360,7 +5073,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-20');
     $p->purchase_date_string = '2022-12-20';
@@ -5378,7 +5090,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-04');
     $p->purchase_date_string = '2024-03-04';
@@ -5396,7 +5107,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-09-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-09-15');
     $p->purchase_date_string = '2020-09-15';
@@ -5414,7 +5124,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-03');
     $p->purchase_date_string = '2023-06-03';
@@ -5432,7 +5141,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-05');
     $p->purchase_date_string = '2021-07-05';
@@ -5450,7 +5158,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-18');
     $p->purchase_date_string = '2021-10-18';
@@ -5468,7 +5175,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-03');
     $p->purchase_date_string = '2020-03-03';
@@ -5486,7 +5192,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-06-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-06-24');
     $p->purchase_date_string = '2024-06-24';
@@ -5504,7 +5209,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-15');
     $p->purchase_date_string = '2024-02-15';
@@ -5522,7 +5226,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-20');
     $p->purchase_date_string = '2020-06-20';
@@ -5540,7 +5243,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-16');
     $p->purchase_date_string = '2024-05-16';
@@ -5558,7 +5260,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-31');
     $p->purchase_date_string = '2024-10-31';
@@ -5576,7 +5277,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-14');
     $p->purchase_date_string = '2020-01-14';
@@ -5594,7 +5294,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-03');
     $p->purchase_date_string = '2020-04-03';
@@ -5612,7 +5311,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-08');
     $p->purchase_date_string = '2022-01-08';
@@ -5630,7 +5328,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-20');
     $p->purchase_date_string = '2020-06-20';
@@ -5648,7 +5345,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-07');
     $p->purchase_date_string = '2024-04-07';
@@ -5666,7 +5362,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-27');
     $p->purchase_date_string = '2023-11-27';
@@ -5684,7 +5379,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-02-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-02-06');
     $p->purchase_date_string = '2023-02-06';
@@ -5702,7 +5396,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-07');
     $p->purchase_date_string = '2022-01-07';
@@ -5720,7 +5413,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-21');
     $p->purchase_date_string = '2023-11-21';
@@ -5738,7 +5430,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-09-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-09-09');
     $p->purchase_date_string = '2023-09-09';
@@ -5756,7 +5447,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-01-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-01-20');
     $p->purchase_date_string = '2024-01-20';
@@ -5774,7 +5464,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-06-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-06-15');
     $p->purchase_date_string = '2024-06-15';
@@ -5792,7 +5481,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-05-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-05-17');
     $p->purchase_date_string = '2020-05-17';
@@ -5810,7 +5498,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-29');
     $p->purchase_date_string = '2020-06-29';
@@ -5828,7 +5515,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-30');
     $p->purchase_date_string = '2024-04-30';
@@ -5846,7 +5532,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-12-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-12-18');
     $p->purchase_date_string = '2021-12-18';
@@ -5864,7 +5549,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-11');
     $p->purchase_date_string = '2024-09-11';
@@ -5882,7 +5566,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-15');
     $p->purchase_date_string = '2021-10-15';
@@ -5900,7 +5583,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-05');
     $p->purchase_date_string = '2023-06-05';
@@ -5918,7 +5600,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-16');
     $p->purchase_date_string = '2022-12-16';
@@ -5936,7 +5617,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-09-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-09-10');
     $p->purchase_date_string = '2020-09-10';
@@ -5954,7 +5634,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-02-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-02-03');
     $p->purchase_date_string = '2020-02-03';
@@ -5972,7 +5651,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-01');
     $p->purchase_date_string = '2022-11-01';
@@ -5990,7 +5668,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-01');
     $p->purchase_date_string = '2024-02-01';
@@ -6008,7 +5685,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-05');
     $p->purchase_date_string = '2021-11-05';
@@ -6026,7 +5702,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-26');
     $p->purchase_date_string = '2020-04-26';
@@ -6044,7 +5719,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-02-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-02-07');
     $p->purchase_date_string = '2023-02-07';
@@ -6062,7 +5736,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-29');
     $p->purchase_date_string = '2022-06-29';
@@ -6080,7 +5753,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-25');
     $p->purchase_date_string = '2020-06-25';
@@ -6098,7 +5770,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-17');
     $p->purchase_date_string = '2022-02-17';
@@ -6116,7 +5787,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-04');
     $p->purchase_date_string = '2021-10-04';
@@ -6134,7 +5804,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-23');
     $p->purchase_date_string = '2020-04-23';
@@ -6152,7 +5821,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-11');
     $p->purchase_date_string = '2022-09-11';
@@ -6170,7 +5838,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-02');
     $p->purchase_date_string = '2022-12-02';
@@ -6188,7 +5855,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-22');
     $p->purchase_date_string = '2021-10-22';
@@ -6206,7 +5872,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-07-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-07-06');
     $p->purchase_date_string = '2020-07-06';
@@ -6224,7 +5889,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-08-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-08-28');
     $p->purchase_date_string = '2022-08-28';
@@ -6242,7 +5906,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-02-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-02-14');
     $p->purchase_date_string = '2021-02-14';
@@ -6260,7 +5923,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-12-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-12-09');
     $p->purchase_date_string = '2020-12-09';
@@ -6278,7 +5940,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-04-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-04-29');
     $p->purchase_date_string = '2023-04-29';
@@ -6296,7 +5957,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-06');
     $p->purchase_date_string = '2021-06-06';
@@ -6314,7 +5974,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-12');
     $p->purchase_date_string = '2022-01-12';
@@ -6332,7 +5991,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-21');
     $p->purchase_date_string = '2023-11-21';
@@ -6350,7 +6008,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-11');
     $p->purchase_date_string = '2020-01-11';
@@ -6368,7 +6025,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-03');
     $p->purchase_date_string = '2022-02-03';
@@ -6386,7 +6042,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-28');
     $p->purchase_date_string = '2022-06-28';
@@ -6404,7 +6059,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-28');
     $p->purchase_date_string = '2024-10-28';
@@ -6422,7 +6076,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-17');
     $p->purchase_date_string = '2024-04-17';
@@ -6440,7 +6093,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-22');
     $p->purchase_date_string = '2022-04-22';
@@ -6458,7 +6110,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-19');
     $p->purchase_date_string = '2021-11-19';
@@ -6476,7 +6127,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-08-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-08-16');
     $p->purchase_date_string = '2021-08-16';
@@ -6494,7 +6144,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-03');
     $p->purchase_date_string = '2024-08-03';
@@ -6512,7 +6161,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-29');
     $p->purchase_date_string = '2020-03-29';
@@ -6530,7 +6178,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-25');
     $p->purchase_date_string = '2023-05-25';
@@ -6548,7 +6195,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-17');
     $p->purchase_date_string = '2024-05-17';
@@ -6566,7 +6212,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-09-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-09-15');
     $p->purchase_date_string = '2021-09-15';
@@ -6584,7 +6229,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-16');
     $p->purchase_date_string = '2021-04-16';
@@ -6602,7 +6246,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-12-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-12-02');
     $p->purchase_date_string = '2020-12-02';
@@ -6620,7 +6263,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-05');
     $p->purchase_date_string = '2020-01-05';
@@ -6638,7 +6280,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-08');
     $p->purchase_date_string = '2023-01-08';
@@ -6656,7 +6297,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-07-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-07-13');
     $p->purchase_date_string = '2020-07-13';
@@ -6674,7 +6314,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-06-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-06-23');
     $p->purchase_date_string = '2024-06-23';
@@ -6692,7 +6331,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-19');
     $p->purchase_date_string = '2024-03-19';
@@ -6710,7 +6348,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-06');
     $p->purchase_date_string = '2023-06-06';
@@ -6728,7 +6365,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-30');
     $p->purchase_date_string = '2023-06-30';
@@ -6746,7 +6382,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-18');
     $p->purchase_date_string = '2023-12-18';
@@ -6764,7 +6399,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-14');
     $p->purchase_date_string = '2024-09-14';
@@ -6782,7 +6416,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-02');
     $p->purchase_date_string = '2021-04-02';
@@ -6800,7 +6433,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-13');
     $p->purchase_date_string = '2024-09-13';
@@ -6818,7 +6450,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-08-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-08-18');
     $p->purchase_date_string = '2020-08-18';
@@ -6836,7 +6467,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-16');
     $p->purchase_date_string = '2024-02-16';
@@ -6854,7 +6484,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-14');
     $p->purchase_date_string = '2024-10-14';
@@ -6872,7 +6501,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-24');
     $p->purchase_date_string = '2024-02-24';
@@ -6890,7 +6518,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-16');
     $p->purchase_date_string = '2024-10-16';
@@ -6908,7 +6535,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-11-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-11-16');
     $p->purchase_date_string = '2020-11-16';
@@ -6926,7 +6552,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-05-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-05-04');
     $p->purchase_date_string = '2021-05-04';
@@ -6944,7 +6569,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-05-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-05-02');
     $p->purchase_date_string = '2021-05-02';
@@ -6962,7 +6586,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-12');
     $p->purchase_date_string = '2022-09-12';
@@ -6980,7 +6603,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-02-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-02-17');
     $p->purchase_date_string = '2023-02-17';
@@ -6998,7 +6620,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-14');
     $p->purchase_date_string = '2022-04-14';
@@ -7016,7 +6637,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-11-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-11-23');
     $p->purchase_date_string = '2020-11-23';
@@ -7034,7 +6654,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-05-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-05-04');
     $p->purchase_date_string = '2024-05-04';
@@ -7052,7 +6671,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-22');
     $p->purchase_date_string = '2020-01-22';
@@ -7070,7 +6688,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-03');
     $p->purchase_date_string = '2024-03-03';
@@ -7088,7 +6705,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-09');
     $p->purchase_date_string = '2021-11-09';
@@ -7106,7 +6722,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-27');
     $p->purchase_date_string = '2020-04-27';
@@ -7124,7 +6739,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-29');
     $p->purchase_date_string = '2020-03-29';
@@ -7142,7 +6756,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-03');
     $p->purchase_date_string = '2020-10-03';
@@ -7160,7 +6773,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-11');
     $p->purchase_date_string = '2021-07-11';
@@ -7178,7 +6790,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-15');
     $p->purchase_date_string = '2023-06-15';
@@ -7196,7 +6807,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-30');
     $p->purchase_date_string = '2022-07-30';
@@ -7214,7 +6824,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-10-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-10-23');
     $p->purchase_date_string = '2023-10-23';
@@ -7232,7 +6841,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-11-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-11-13');
     $p->purchase_date_string = '2020-11-13';
@@ -7250,7 +6858,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-17');
     $p->purchase_date_string = '2021-07-17';
@@ -7268,7 +6875,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-07');
     $p->purchase_date_string = '2020-01-07';
@@ -7286,7 +6892,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-02-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-02-28');
     $p->purchase_date_string = '2020-02-28';
@@ -7304,7 +6909,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-09-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-09-21');
     $p->purchase_date_string = '2020-09-21';
@@ -7322,7 +6926,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-05');
     $p->purchase_date_string = '2023-08-05';
@@ -7340,7 +6943,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-20');
     $p->purchase_date_string = '2021-10-20';
@@ -7358,7 +6960,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-04');
     $p->purchase_date_string = '2022-06-04';
@@ -7376,7 +6977,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-22');
     $p->purchase_date_string = '2021-11-22';
@@ -7394,7 +6994,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-01-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-01-14');
     $p->purchase_date_string = '2024-01-14';
@@ -7412,7 +7011,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-07');
     $p->purchase_date_string = '2022-02-07';
@@ -7430,7 +7028,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-13');
     $p->purchase_date_string = '2023-01-13';
@@ -7448,7 +7045,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-23');
     $p->purchase_date_string = '2024-08-23';
@@ -7466,7 +7062,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-18');
     $p->purchase_date_string = '2024-04-18';
@@ -7484,7 +7079,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-24');
     $p->purchase_date_string = '2020-01-24';
@@ -7502,7 +7096,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-09-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-09-25');
     $p->purchase_date_string = '2023-09-25';
@@ -7520,7 +7113,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-23');
     $p->purchase_date_string = '2021-10-23';
@@ -7538,7 +7130,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-26');
     $p->purchase_date_string = '2023-12-26';
@@ -7556,7 +7147,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-29');
     $p->purchase_date_string = '2024-10-29';
@@ -7574,7 +7164,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-15');
     $p->purchase_date_string = '2021-06-15';
@@ -7592,7 +7181,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-14');
     $p->purchase_date_string = '2022-11-14';
@@ -7610,7 +7198,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-24');
     $p->purchase_date_string = '2022-10-24';
@@ -7628,7 +7215,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-07-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-07-13');
     $p->purchase_date_string = '2020-07-13';
@@ -7646,7 +7232,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-01-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-01-31');
     $p->purchase_date_string = '2022-01-31';
@@ -7664,7 +7249,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-16');
     $p->purchase_date_string = '2023-06-16';
@@ -7682,7 +7266,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-26');
     $p->purchase_date_string = '2022-04-26';
@@ -7700,7 +7283,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-28');
     $p->purchase_date_string = '2023-06-28';
@@ -7718,7 +7300,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-12-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-12-19');
     $p->purchase_date_string = '2021-12-19';
@@ -7736,7 +7317,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-07-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-07-20');
     $p->purchase_date_string = '2020-07-20';
@@ -7754,7 +7334,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-27');
     $p->purchase_date_string = '2023-06-27';
@@ -7772,7 +7351,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-05');
     $p->purchase_date_string = '2020-01-05';
@@ -7790,7 +7368,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-24');
     $p->purchase_date_string = '2022-04-24';
@@ -7808,7 +7385,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-18');
     $p->purchase_date_string = '2022-04-18';
@@ -7826,7 +7402,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-30');
     $p->purchase_date_string = '2022-12-30';
@@ -7844,7 +7419,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-21');
     $p->purchase_date_string = '2023-06-21';
@@ -7862,7 +7436,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-02');
     $p->purchase_date_string = '2024-04-02';
@@ -7880,7 +7453,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-10-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-10-02');
     $p->purchase_date_string = '2023-10-02';
@@ -7898,7 +7470,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-08');
     $p->purchase_date_string = '2022-02-08';
@@ -7916,7 +7487,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-11');
     $p->purchase_date_string = '2020-06-11';
@@ -7934,7 +7504,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-10-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-10-25');
     $p->purchase_date_string = '2023-10-25';
@@ -7952,7 +7521,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-31');
     $p->purchase_date_string = '2020-01-31';
@@ -7970,7 +7538,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-05-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-05-25');
     $p->purchase_date_string = '2022-05-25';
@@ -7988,7 +7555,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-19');
     $p->purchase_date_string = '2022-10-19';
@@ -8006,7 +7572,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-08');
     $p->purchase_date_string = '2021-04-08';
@@ -8024,7 +7589,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-09');
     $p->purchase_date_string = '2021-03-09';
@@ -8042,7 +7606,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-27');
     $p->purchase_date_string = '2020-10-27';
@@ -8060,7 +7623,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-12');
     $p->purchase_date_string = '2024-02-12';
@@ -8078,7 +7640,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-16');
     $p->purchase_date_string = '2021-04-16';
@@ -8096,7 +7657,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-06');
     $p->purchase_date_string = '2022-09-06';
@@ -8114,7 +7674,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-13');
     $p->purchase_date_string = '2022-09-13';
@@ -8132,7 +7691,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-30');
     $p->purchase_date_string = '2023-11-30';
@@ -8150,7 +7708,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-02-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-02-14');
     $p->purchase_date_string = '2024-02-14';
@@ -8168,7 +7725,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-01');
     $p->purchase_date_string = '2021-11-01';
@@ -8186,7 +7742,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-01-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-01-18');
     $p->purchase_date_string = '2024-01-18';
@@ -8204,7 +7759,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-12');
     $p->purchase_date_string = '2024-07-12';
@@ -8222,7 +7776,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-19');
     $p->purchase_date_string = '2024-08-19';
@@ -8240,7 +7793,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-27');
     $p->purchase_date_string = '2021-07-27';
@@ -8258,7 +7810,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-21');
     $p->purchase_date_string = '2020-10-21';
@@ -8276,7 +7827,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-23');
     $p->purchase_date_string = '2024-08-23';
@@ -8294,7 +7844,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-07');
     $p->purchase_date_string = '2021-11-07';
@@ -8312,7 +7861,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-24');
     $p->purchase_date_string = '2024-08-24';
@@ -8330,7 +7878,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-25');
     $p->purchase_date_string = '2022-09-25';
@@ -8348,7 +7895,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-05');
     $p->purchase_date_string = '2021-10-05';
@@ -8366,7 +7912,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-27');
     $p->purchase_date_string = '2024-03-27';
@@ -8384,7 +7929,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-11');
     $p->purchase_date_string = '2024-03-11';
@@ -8402,7 +7946,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-11');
     $p->purchase_date_string = '2022-03-11';
@@ -8420,7 +7963,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-18');
     $p->purchase_date_string = '2020-03-18';
@@ -8438,7 +7980,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-01');
     $p->purchase_date_string = '2022-03-01';
@@ -8456,7 +7997,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-25');
     $p->purchase_date_string = '2024-09-25';
@@ -8474,7 +8014,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-11');
     $p->purchase_date_string = '2023-08-11';
@@ -8492,7 +8031,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-08-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-08-08');
     $p->purchase_date_string = '2020-08-08';
@@ -8510,7 +8048,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-10');
     $p->purchase_date_string = '2020-03-10';
@@ -8528,7 +8065,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-04-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-04-11');
     $p->purchase_date_string = '2022-04-11';
@@ -8546,7 +8082,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-21');
     $p->purchase_date_string = '2022-07-21';
@@ -8564,7 +8099,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-06');
     $p->purchase_date_string = '2023-05-06';
@@ -8582,7 +8116,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-29');
     $p->purchase_date_string = '2021-04-29';
@@ -8600,7 +8133,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-30');
     $p->purchase_date_string = '2023-06-30';
@@ -8618,7 +8150,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-04');
     $p->purchase_date_string = '2021-01-04';
@@ -8636,7 +8167,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-11-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-11-19');
     $p->purchase_date_string = '2020-11-19';
@@ -8654,7 +8184,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-24');
     $p->purchase_date_string = '2021-07-24';
@@ -8672,7 +8201,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-01-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-01-16');
     $p->purchase_date_string = '2024-01-16';
@@ -8690,7 +8218,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-24');
     $p->purchase_date_string = '2021-04-24';
@@ -8708,7 +8235,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-23');
     $p->purchase_date_string = '2022-02-23';
@@ -8726,7 +8252,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-09-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-09-02');
     $p->purchase_date_string = '2023-09-02';
@@ -8744,7 +8269,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-25');
     $p->purchase_date_string = '2021-06-25';
@@ -8762,7 +8286,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-05');
     $p->purchase_date_string = '2021-10-05';
@@ -8780,7 +8303,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-13');
     $p->purchase_date_string = '2024-10-13';
@@ -8798,7 +8320,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-21');
     $p->purchase_date_string = '2020-01-21';
@@ -8816,7 +8337,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-07');
     $p->purchase_date_string = '2022-10-07';
@@ -8834,7 +8354,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-25');
     $p->purchase_date_string = '2021-06-25';
@@ -8852,7 +8371,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-10');
     $p->purchase_date_string = '2023-12-10';
@@ -8870,7 +8388,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-19');
     $p->purchase_date_string = '2022-12-19';
@@ -8888,7 +8405,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-08-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-08-15');
     $p->purchase_date_string = '2022-08-15';
@@ -8906,7 +8422,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-09-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-09-08');
     $p->purchase_date_string = '2024-09-08';
@@ -8924,7 +8439,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-09-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-09-21');
     $p->purchase_date_string = '2021-09-21';
@@ -8942,7 +8456,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-07-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-07-07');
     $p->purchase_date_string = '2023-07-07';
@@ -8960,7 +8473,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-06-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-06-21');
     $p->purchase_date_string = '2021-06-21';
@@ -8978,7 +8490,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-06');
     $p->purchase_date_string = '2020-10-06';
@@ -8996,7 +8507,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-03');
     $p->purchase_date_string = '2022-09-03';
@@ -9014,7 +8524,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-02');
     $p->purchase_date_string = '2022-11-02';
@@ -9032,7 +8541,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-23');
     $p->purchase_date_string = '2024-10-23';
@@ -9050,7 +8558,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-10');
     $p->purchase_date_string = '2023-03-10';
@@ -9068,7 +8575,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-23'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-23');
     $p->purchase_date_string = '2022-03-23';
@@ -9086,7 +8592,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-06-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-06-09');
     $p->purchase_date_string = '2022-06-09';
@@ -9104,7 +8609,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-20');
     $p->purchase_date_string = '2024-07-20';
@@ -9122,7 +8626,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-11');
     $p->purchase_date_string = '2022-07-11';
@@ -9140,7 +8643,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-02-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-02-02');
     $p->purchase_date_string = '2020-02-02';
@@ -9158,7 +8660,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-21');
     $p->purchase_date_string = '2020-04-21';
@@ -9176,7 +8677,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-12'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-12');
     $p->purchase_date_string = '2023-03-12';
@@ -9194,7 +8694,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-06');
     $p->purchase_date_string = '2020-04-06';
@@ -9212,7 +8711,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-12-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-12-27');
     $p->purchase_date_string = '2020-12-27';
@@ -9230,7 +8728,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-10-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-10-19');
     $p->purchase_date_string = '2024-10-19';
@@ -9248,7 +8745,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-11');
     $p->purchase_date_string = '2022-10-11';
@@ -9266,7 +8762,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-07');
     $p->purchase_date_string = '2023-05-07';
@@ -9284,7 +8779,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-08'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-08');
     $p->purchase_date_string = '2022-03-08';
@@ -9302,7 +8796,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-06');
     $p->purchase_date_string = '2022-07-06';
@@ -9320,7 +8813,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-09');
     $p->purchase_date_string = '2023-01-09';
@@ -9338,7 +8830,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-06');
     $p->purchase_date_string = '2023-01-06';
@@ -9356,7 +8847,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-07');
     $p->purchase_date_string = '2022-02-07';
@@ -9374,7 +8864,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-03-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-03-09');
     $p->purchase_date_string = '2020-03-09';
@@ -9392,7 +8881,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-06-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-06-25');
     $p->purchase_date_string = '2020-06-25';
@@ -9410,7 +8898,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-09-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-09-17');
     $p->purchase_date_string = '2021-09-17';
@@ -9428,7 +8915,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-17');
     $p->purchase_date_string = '2023-06-17';
@@ -9446,7 +8932,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-27');
     $p->purchase_date_string = '2022-09-27';
@@ -9464,7 +8949,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-28');
     $p->purchase_date_string = '2024-03-28';
@@ -9482,7 +8966,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-17');
     $p->purchase_date_string = '2023-11-17';
@@ -9500,7 +8983,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-05');
     $p->purchase_date_string = '2022-09-05';
@@ -9518,7 +9000,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-09-01'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-09-01');
     $p->purchase_date_string = '2023-09-01';
@@ -9536,7 +9017,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-24');
     $p->purchase_date_string = '2021-11-24';
@@ -9554,7 +9034,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-11-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-11-25');
     $p->purchase_date_string = '2022-11-25';
@@ -9572,7 +9051,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-02-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-02-27');
     $p->purchase_date_string = '2023-02-27';
@@ -9590,7 +9068,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-26');
     $p->purchase_date_string = '2023-03-26';
@@ -9608,7 +9085,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-26');
     $p->purchase_date_string = '2021-04-26';
@@ -9626,7 +9102,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-30');
     $p->purchase_date_string = '2021-04-30';
@@ -9644,7 +9119,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-05-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-05-03');
     $p->purchase_date_string = '2020-05-03';
@@ -9662,7 +9136,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-04-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-04-07');
     $p->purchase_date_string = '2023-04-07';
@@ -9680,7 +9153,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-25');
     $p->purchase_date_string = '2023-08-25';
@@ -9698,7 +9170,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-10-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-10-24');
     $p->purchase_date_string = '2021-10-24';
@@ -9716,7 +9187,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-05-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-05-07');
     $p->purchase_date_string = '2022-05-07';
@@ -9734,7 +9204,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-27');
     $p->purchase_date_string = '2021-11-27';
@@ -9752,7 +9221,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-03-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-03-03');
     $p->purchase_date_string = '2023-03-03';
@@ -9770,7 +9238,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-09-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-09-17');
     $p->purchase_date_string = '2023-09-17';
@@ -9788,7 +9255,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-03-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-03-20');
     $p->purchase_date_string = '2024-03-20';
@@ -9806,7 +9272,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-12-15'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-12-15');
     $p->purchase_date_string = '2020-12-15';
@@ -9824,7 +9289,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-07-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-07-04');
     $p->purchase_date_string = '2020-07-04';
@@ -9842,7 +9306,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-12-13'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-12-13');
     $p->purchase_date_string = '2020-12-13';
@@ -9860,7 +9323,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-11-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-11-02');
     $p->purchase_date_string = '2023-11-02';
@@ -9878,7 +9340,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-07-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-07-03');
     $p->purchase_date_string = '2022-07-03';
@@ -9896,7 +9357,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-11-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-11-24');
     $p->purchase_date_string = '2021-11-24';
@@ -9914,7 +9374,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-10-02'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-10-02');
     $p->purchase_date_string = '2023-10-02';
@@ -9932,7 +9391,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-02-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-02-28');
     $p->purchase_date_string = '2021-02-28';
@@ -9950,7 +9408,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-18');
     $p->purchase_date_string = '2023-12-18';
@@ -9968,7 +9425,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-09-05'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-09-05');
     $p->purchase_date_string = '2021-09-05';
@@ -9986,7 +9442,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-11'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-11');
     $p->purchase_date_string = '2022-12-11';
@@ -10004,7 +9459,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-16');
     $p->purchase_date_string = '2022-09-16';
@@ -10022,7 +9476,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-29');
     $p->purchase_date_string = '2022-03-29';
@@ -10040,7 +9493,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-18'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-18');
     $p->purchase_date_string = '2024-04-18';
@@ -10058,7 +9510,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-25');
     $p->purchase_date_string = '2021-01-25';
@@ -10076,7 +9527,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-01-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-01-16');
     $p->purchase_date_string = '2024-01-16';
@@ -10094,7 +9544,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-02-25'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-02-25');
     $p->purchase_date_string = '2023-02-25';
@@ -10112,7 +9561,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-05-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-05-19');
     $p->purchase_date_string = '2021-05-19';
@@ -10130,7 +9578,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-02-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-02-07');
     $p->purchase_date_string = '2022-02-07';
@@ -10148,7 +9595,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-19');
     $p->purchase_date_string = '2023-05-19';
@@ -10166,7 +9612,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-08-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-08-19');
     $p->purchase_date_string = '2024-08-19';
@@ -10184,7 +9629,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-09-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-09-26');
     $p->purchase_date_string = '2022-09-26';
@@ -10202,7 +9646,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-03');
     $p->purchase_date_string = '2022-12-03';
@@ -10220,7 +9663,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-14'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-14');
     $p->purchase_date_string = '2020-10-14';
@@ -10238,7 +9680,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-02-06'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-02-06');
     $p->purchase_date_string = '2021-02-06';
@@ -10256,7 +9697,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-01-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-01-07');
     $p->purchase_date_string = '2021-01-07';
@@ -10274,7 +9714,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-05-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-05-16');
     $p->purchase_date_string = '2023-05-16';
@@ -10292,7 +9731,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-10-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-10-26');
     $p->purchase_date_string = '2022-10-26';
@@ -10310,7 +9748,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-09'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-09');
     $p->purchase_date_string = '2023-01-09';
@@ -10328,7 +9765,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-04-27'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-04-27');
     $p->purchase_date_string = '2023-04-27';
@@ -10346,7 +9782,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-01-30'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-01-30');
     $p->purchase_date_string = '2023-01-30';
@@ -10364,7 +9799,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-06-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-06-22');
     $p->purchase_date_string = '2024-06-22';
@@ -10382,7 +9816,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-04-16'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-04-16');
     $p->purchase_date_string = '2024-04-16';
@@ -10400,7 +9833,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-22'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-22');
     $p->purchase_date_string = '2020-04-22';
@@ -10418,7 +9850,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-06-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-06-10');
     $p->purchase_date_string = '2024-06-10';
@@ -10436,7 +9867,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-04');
     $p->purchase_date_string = '2021-03-04';
@@ -10454,7 +9884,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-06-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-06-29');
     $p->purchase_date_string = '2023-06-29';
@@ -10472,7 +9901,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-10-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-10-29');
     $p->purchase_date_string = '2020-10-29';
@@ -10490,7 +9918,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-08-17'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-08-17');
     $p->purchase_date_string = '2022-08-17';
@@ -10508,7 +9935,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-12-07'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-12-07');
     $p->purchase_date_string = '2020-12-07';
@@ -10526,7 +9952,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-03-29'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-03-29');
     $p->purchase_date_string = '2022-03-29';
@@ -10544,7 +9969,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-04-21'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-04-21');
     $p->purchase_date_string = '2021-04-21';
@@ -10562,7 +9986,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2024-07-04'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2024-07-04');
     $p->purchase_date_string = '2024-07-04';
@@ -10580,7 +10003,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2022-12-26'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2022-12-26');
     $p->purchase_date_string = '2022-12-26';
@@ -10598,7 +10020,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-12-10'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-12-10');
     $p->purchase_date_string = '2023-12-10';
@@ -10616,7 +10037,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-07-03'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-07-03');
     $p->purchase_date_string = '2021-07-03';
@@ -10634,7 +10054,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-03-19'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-03-19');
     $p->purchase_date_string = '2021-03-19';
@@ -10652,7 +10071,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2021-08-31'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2021-08-31');
     $p->purchase_date_string = '2021-08-31';
@@ -10670,7 +10088,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-01-24'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-01-24');
     $p->purchase_date_string = '2020-01-24';
@@ -10688,7 +10105,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2023-08-20'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2023-08-20');
     $p->purchase_date_string = '2023-08-20';
@@ -10706,7 +10122,6 @@ use App\Models\Purchase;
       'purchase_date' => DateTime::createFromFormat('Y-m-d', '2020-04-28'),
   ];
   if ($this->validatePurchase($p)) {
-    dump('created: ' . $p['purchase_date']->format('Y-m-d'));
     $p = Purchase::create($p);
     $p->purchase_date = DateTime::createFromFormat('Y-m-d', '2020-04-28');
     $p->purchase_date_string = '2020-04-28';

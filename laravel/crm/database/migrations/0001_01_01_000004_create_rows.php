@@ -43,8 +43,6 @@ return new class extends Migration
   {
     $dateString = $c['purchase_date_string'];
     $dateTime = $c['purchase_date'];
-    dump('string: ' . $dateString);
-    dump('date: ' . $dateTime->format('Y-m-d'));
     if (!$this->isValidDate($c['purchase_date_string'], $c['purchase_date'])) return false;
     return true;
   }
