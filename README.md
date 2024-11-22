@@ -61,4 +61,5 @@ Used a script to parse [purchase_history.csv](data/purchase_history.csv) and [cu
 
 - [Parse Customers](data/parse_customers.sh)
 - [Parse Purchases](data/parse_purchases.sh)
+- [Generate Rows](data/generate_rows.sh)
 - [Generated Rows](data/rows.php)
