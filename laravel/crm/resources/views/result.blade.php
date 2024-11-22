@@ -34,6 +34,7 @@
             <th>Quantity</th>
             <th>Total</th>
             <th>Date</th>
+            <th>DateString</th>
         </tr>
     </thead>
     <tbody>
@@ -44,7 +45,8 @@
                 <td>{{ $purchase->price }}</td>
                 <td>{{ $purchase->quantity }}</td>
                 <td>{{ $purchase->total }}</td>
-                <td>{{ $purchase->date }}</td>
+                <td>{{ $purchase->purchase_date }}</td>
+                <td>{{ $purchase->purchase_date_string }}</td>
             </tr>
         @endforeach
     </tbody>

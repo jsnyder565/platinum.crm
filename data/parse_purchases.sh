@@ -18,7 +18,14 @@ tail -n +2 "$csv_file" | while IFS=, read customer_email purchasable price quant
       'price' => $price,
       'quantity' => $quantity,
       'total' => $total,
-      'date' => '$date',
+      'purchase_date_string' => '$date',
+      'purchase_date' => DateTime::createFromFormat('Y-m-d', '$date'),
   ];
-  if (\$this->validatePurchase(\$p)) Purchase::create(\$p);"
+  if (\$this->validatePurchase(\$p)) {
+    dump('created: ' . \$p['purchase_date']->format('Y-m-d'));
+    \$p = Purchase::create(\$p);
+    \$p->purchase_date = DateTime::createFromFormat('Y-m-d', '$date');
+    \$p->purchase_date_string = '$date';
+    \$p->save();
+  }"
 done

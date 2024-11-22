@@ -6,13 +6,17 @@ use Illuminate\Support\Facades\Schema;
 use App\Models\Customer;
 use App\Models\Purchase;
 
+use function Psy\debug;
+
 return new class extends Migration
 {
 
-  function isValidDateString($dateString)
+  function isValidDate($dateString,$dateTime)
   {
-    $dateTime = DateTime::createFromFormat('Y-m-d', $dateString);
-    return $dateTime && $dateTime->format('Y-m-d') === $dateString;
+    if ($dateTime && $dateTime->format('Y-m-d') === $dateString)
+      return true;
+    else 
+      return false;
   }
 
   function validateCustomer($c)
@@ -25,7 +29,11 @@ return new class extends Migration
 
   function validatePurchase($c)
   {
-    if (!$this->isValidDateString($c['date'])) return false;
+    $dateString = $c['purchase_date_string'];
+    $dateTime = $c['purchase_date'];
+    dump('string: ' . $dateString);
+    dump('date: ' . $dateTime->format('Y-m-d'));
+    if (!$this->isValidDate($c['purchase_date_string'], $c['purchase_date'])) return false;
     return true;
   }
 
@@ -57,7 +65,7 @@ return new class extends Migration
       }
 
       // Update the customer's total loyalty points
-      $customer->loyalty_points = $totalItems + floor($totalAmount / 10);
+      $customer->loyalty_points = floor($totalItems / 10) + floor($totalAmount / 10);
       $customer->save();
     }
   }

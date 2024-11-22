@@ -23,8 +23,8 @@ Route::get('/report', function() {
         from 
         (
         SELECT
-            strftime('%Y', p.date) AS year,
-            strftime('%m', p.date) AS month,
+            strftime('%Y', p.purchase_date) AS year,
+            strftime('%m', p.purchase_date) AS month,
             COUNT(DISTINCT c.id) AS total_customers,
             SUM(ROUND(p.quantity / 10, 0) + p.total) AS total_points,
             ROUND(AVG(p.total),2) AS average_spend,

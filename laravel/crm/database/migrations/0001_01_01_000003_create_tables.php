@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('phone_number');
-            $table->timestamp('created')->useCurrent();
             $table->integer('loyalty_points');
             $table->timestamps();
           });
@@ -27,7 +26,8 @@ return new class extends Migration
             $table->double('price');
             $table->double('quantity');
             $table->double('total');
-            $table->timestamp('date');
+            $table->string('purchase_date_string')->nullable();
+            $table->dateTime('purchase_date')->nullable();
             $table->timestamps();
           });
     }
