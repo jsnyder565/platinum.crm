@@ -13,35 +13,33 @@ Assumes the site is running locally on port 8000.
 
 # SETUP
 
-Uses Laravel's built in sqllite database.
-
 - install homebrew
-
+```
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
-
+```
 - install dependencies
-
+```
     brew install git
     brew install php
     brew install composer
     brew install laravel
-
-- refresh the database
-
+```
+- refresh the database (Uses Laravel's built in sqllite database)
+```
     artisan migrate:fresh
-
+```
 - run the site
-
+```
     artisan serve
-
+```
 # Source Code
 
 Laravel creates a bunch of files by default.
 Here are the ones that were added/modified for this project.
 
-- [Purchase.php](laravel/crm/app/Models/Purchase.php)
-- [Customer.php](laravel/crm/app/Models/Customer.php)
+- [Purchase Model](laravel/crm/app/Models/Purchase.php)
+- [Customer Model](laravel/crm/app/Models/Customer.php)
 - [Database Tables](laravel/crm/database/migrations/0001_01_01_000003_create_tables.php)
 - [Imported Rows](laravel/crm/database/migrations/0001_01_01_000004_create_rows.php)
 - [Routes](laravel/crm/routes/web.php)
