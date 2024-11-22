@@ -37,7 +37,7 @@ return new class extends Migration
 
     // This part is auto-generated
     /******** ADD ROWS BEGIN ****/
-    include '/users/julian/src/platinum.crm/rows.php';
+    include '/users/julian/src/platinum.crm/data/rows.php';
     /******** ADD ROWS END ******/
 
 
