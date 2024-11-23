@@ -28,7 +28,7 @@ return new class extends Migration
       }
 
       // Update the customer's total loyalty points
-      $customer->loyalty_points = floor($totalItems / 10) + floor($totalAmount / 10);
+      $customer->loyalty_points = 10 * floor($totalItems / 10) + floor($totalAmount / 10);
       $customer->save();
     }
   }

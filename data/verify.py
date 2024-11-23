@@ -19,6 +19,7 @@ def parse_csv_and_calculate(filename):
     distinct_emails = set()
     customer_totals = {}
     customer_loyalty_points = {}
+    customer_total_items = {}
     cutoff_date = datetime(2022, 1, 1)
 
     with open(filename, 'r') as csvfile:
@@ -39,7 +40,9 @@ def parse_csv_and_calculate(filename):
             if purchase_date >= cutoff_date:
                 if customer_email not in customer_loyalty_points:
                     customer_loyalty_points[customer_email] = 0
-                customer_loyalty_points[customer_email] += 10*(quantity // 10) + total_amount // 10
+                    customer_total_items[customer_email] = 0
+                customer_total_items[customer_email] += quantity
+                customer_loyalty_points[customer_email] += customer_total_items[customer_email] // 10 + total_amount // 10
 
     return total_rows, len(distinct_emails), customer_totals, customer_loyalty_points
 
