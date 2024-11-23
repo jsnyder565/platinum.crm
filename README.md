@@ -1,6 +1,8 @@
 # Sample PHP CRM site
 
-A small site / API for customers and purchases.
+A simple Laravel site for customers and purchases.
+
+This [loom video](https://www.loom.com/share/41b7a03e518d4e0fb24edce071a9f363) provides an overview of the project.
 
 ### Project Requirements
 
@@ -68,8 +70,8 @@ Here are the ones that were added/modified for this project.
 - [Routes](laravel/crm/routes/web.php)
 - [Report View](laravel/crm/resources/views/report.blade.php)
 - [Tables View](laravel/crm/resources/views/result.blade.php)
-- [CustomerController.php](laravel/crm/app/Http/Controllers/CustomerController.php)
-- [PurchaseController.php](laravel/crm/app/Http/Controllers/PurchaseController.php)
+- [CustomerController](laravel/crm/app/Http/Controllers/CustomerController.php)
+- [PurchaseController](laravel/crm/app/Http/Controllers/PurchaseController.php)
 
 ### Data Import
 
