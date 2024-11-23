@@ -1,5 +1,6 @@
 import csv
 from datetime import datetime
+from collections import defaultdict
 
 def parse_csv_and_calculate(filename):
     """Parses the CSV file and calculates the required metrics.
@@ -13,13 +14,15 @@ def parse_csv_and_calculate(filename):
         - Number of distinct customer emails
         - A dictionary of customer emails and their total purchase amount
         - A dictionary of customer emails and their loyalty points
+        - A list of tuples, each containing a month, total spend, and points awarded
     """
 
     total_rows = 0
     distinct_emails = set()
-    customer_totals = {}
-    customer_loyalty_points = {}
-    customer_total_items = {}
+    customer_totals = defaultdict(float)
+    customer_loyalty_points = defaultdict(int)
+    customer_total_items = defaultdict(int)
+    monthly_totals = defaultdict(lambda: {'total_spend': 0, 'points_awarded': 0})
     cutoff_date = datetime(2022, 1, 1)
 
     with open(filename, 'r') as csvfile:
@@ -33,30 +36,36 @@ def parse_csv_and_calculate(filename):
             quantity = int(row['quantity'])
             total_amount = float(row['total'])
 
-            if customer_email not in customer_totals:
-                customer_totals[customer_email] = 0
             customer_totals[customer_email] += total_amount
 
             if purchase_date >= cutoff_date:
-                if customer_email not in customer_loyalty_points:
-                    customer_loyalty_points[customer_email] = 0
-                    customer_total_items[customer_email] = 0
                 customer_total_items[customer_email] += quantity
                 customer_loyalty_points[customer_email] += customer_total_items[customer_email] // 10 + total_amount // 10
 
-    return total_rows, len(distinct_emails), customer_totals, customer_loyalty_points
+                month_year = purchase_date.strftime('%Y-%m')
+                monthly_totals[month_year]['total_spend'] += total_amount
+                monthly_totals[month_year]['points_awarded'] += quantity // 10 + total_amount // 10
+
+    # Sort monthly totals by month in ascending order
+    monthly_totals = sorted(monthly_totals.items(), key=lambda x: datetime.strptime(x[0], '%Y-%m'))
+
+    return total_rows, len(distinct_emails), customer_totals, customer_loyalty_points, monthly_totals
 
 # Example usage:
 filename = 'purchase_history.csv'
-total_rows, num_customers, customer_totals, customer_loyalty_points = parse_csv_and_calculate(filename)
+total_rows, num_customers, customer_totals, customer_loyalty_points, monthly_totals = parse_csv_and_calculate(filename)
 
 print("Total rows:", total_rows)
 print("Number of distinct customers:", num_customers)
 
 print("\nCustomer Totals:")
 for customer, total in customer_totals.items():
-    print(f"{customer:<30} {total:>10.2f}")
+    print(f"{customer:<30} ${total:>10.2f}")
 
 print("\nCustomer Loyalty Points:")
 for customer, points in customer_loyalty_points.items():
     print(f"{customer:<30} {points:>10}")
+
+print("\nMonthly Totals:")
+for month_year, totals in monthly_totals:
+    print(f"{month_year:<10} ${totals['total_spend']:>10.2f} {totals['points_awarded']:>10}")
