@@ -14,7 +14,9 @@ return new class extends Migration
   function updateLoyaltyPoints() {
     $customers = Customer::all();
     foreach ($customers as $customer) {
-      $purchases = Purchase::where('customer_id', $customer->id)->where('purchase_date >= "2022-01-01"')->get();
+      // Get purchases for this customer, from jan 2022 on.
+      $purchases = Purchase::where('customer_id', $customer->id)
+                           ->where('purchase_date_string', '>=', '2022-01-01 00:00:00')->get();
       if ($purchases == NULL) continue;
       
       // Sum all Items
@@ -34,6 +36,7 @@ return new class extends Migration
   function updateTotalSpend() {
     $customers = Customer::all();
     foreach ($customers as $customer) {
+      // Get purchases for this customer, from jan 2022 on.
       $purchases = Purchase::where('customer_id', $customer->id)->get();
       if ($purchases == NULL) continue;
       $totalAmount = 0;
@@ -42,7 +45,7 @@ return new class extends Migration
         $totalAmount += $purchase->total;
       }
 
-      // Update the customer's total loyalty points
+      // Update the customer's total dollars spend.
       $customer->total_spend = $totalAmount;
       $customer->save();
     }

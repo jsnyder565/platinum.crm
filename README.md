@@ -25,7 +25,7 @@ Assumes the site is running locally on port 8000.
 - [Main Page](http://127.0.0.1:8000/) shows a full list of all customers and purchases.
 - [Report Page](http://127.0.0.1:8000/report) shows a month by month report.
 - [Customers API](http://127.0.0.1:8000/customers) returns customers as JSON.
-- [Purchases API](http://127.0.0.1:8000/purchases) returns purchases as JSON.
+- [Purchases API](http://127.0.0.1:8000/purchases) returns purchases as JSON and supports [filters](http://127.0.0.1:8000/purchases?max_spend=4000).
 
 ### Preliminary Setup
 

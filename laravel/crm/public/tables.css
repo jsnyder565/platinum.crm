@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+th {
+    text-align: left;
+    padding-right: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #dcd3d3;
+}

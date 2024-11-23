@@ -34,7 +34,11 @@ Route::get('/report', function() {
             strftime('%Y', p.purchase_date) AS year,
             strftime('%m', p.purchase_date) AS month,
             COUNT(DISTINCT c.id) AS total_customers,
-            SUM(ROUND(p.quantity / 10, 0) + p.total) AS total_points,
+            SUM(
+                case 
+                when p.purchase_date>'2022-01-01' THEN ROUND(p.quantity / 10, 0) + ROUND(p.total / 10, 0) else 0
+                end
+            ) AS total_points,
             ROUND(AVG(p.total),2) AS average_spend,
             SUM(ROUND(p.quantity, 0)) as total_items,
             SUM(p.total) as total_revenue

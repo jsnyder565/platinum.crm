@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="tables.css">
+
 <div>Total Customers = {{$totalCustomers}}</div>
 <div>Total Purchases = {{$totalPurchases}}</div>
 
