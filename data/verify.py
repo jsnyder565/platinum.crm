@@ -9,10 +9,10 @@ def parse_csv_and_calculate(filename):
 
     Returns:
         A tuple containing:
-            - Total number of rows
-            - Number of distinct customer emails
-            - A dictionary of customer emails and their total purchase amount
-            - A dictionary of customer emails and their loyalty points
+        - Total number of rows
+        - Number of distinct customer emails
+        - A dictionary of customer emails and their total purchase amount
+        - A dictionary of customer emails and their loyalty points
     """
 
     total_rows = 0
@@ -53,8 +53,10 @@ total_rows, num_customers, customer_totals, customer_loyalty_points = parse_csv_
 print("Total rows:", total_rows)
 print("Number of distinct customers:", num_customers)
 
+print("\nCustomer Totals:")
 for customer, total in customer_totals.items():
-    print(f"Customer {customer} spent a total of ${total:.2f}")
+    print(f"{customer:<30} {total:>10.2f}")
 
+print("\nCustomer Loyalty Points:")
 for customer, points in customer_loyalty_points.items():
-    print(f"Customer {customer} has {points} loyalty points")
+    print(f"{customer:<30} {points:>10}")

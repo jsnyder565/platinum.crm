@@ -4,6 +4,8 @@ A simple Laravel site for customers and purchases.
 
 This [loom video](https://www.loom.com/share/41b7a03e518d4e0fb24edce071a9f363) provides an overview of the project.
 
+Note that a bug in loyalty_point calculations was fixed after the video was created.  So it doesn't mention [verify.py](data/verify.py) which does some independent calculations of total_spend and loyalty_points for each customer.
+
 ### Project Requirements
 
 - customers table with columns id, name, email, phone_number, loyalty_points, created_at.
