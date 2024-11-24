@@ -4,7 +4,7 @@ A simple Laravel site for customers and purchases.
 
 This [loom video](https://www.loom.com/share/41b7a03e518d4e0fb24edce071a9f363) provides an overview of the project.
 
-Note that a bug in loyalty_point calculations was fixed after the video was created.  So it doesn't mention [verify.py](data/verify.py) which does some independent calculations of total_spend and loyalty_points for each customer.
+Note that a bug in loyalty_point calculations was fixed after the video was created.  So it doesn't mention [verify_purchases.py](data/verify_months.py) and [verify_months_.py](data/verify_months.py) and   which does some independent calculations.
 
 ### Project Requirements
 
@@ -83,3 +83,18 @@ Used a script to parse [purchase_history.csv](data/purchase_history.csv) and [cu
 - [Parse Purchases](data/parse_purchases.sh)
 - [Generate Rows](data/generate_rows.sh)
 - [Generated Rows](data/rows.php)
+
+### Testing
+
+These scripts can be used to calculate per customer and per months values using completely separate code.
+They can be run from the data directory.
+
+- [verify_purchases.py](data/verify_months.py)
+```
+        python3 verify_purchases.py
+```
+
+- [verify_months_.py](data/verify_months.py)
+```
+        python3 verify_months.py
+```
