@@ -3,7 +3,7 @@ from datetime import datetime
 from collections import defaultdict
 
 def parse_csv_and_calculate(filename):
-    """Parses the CSV file and calculates the required metrics.
+    """Parses the CSV file and calculates required metrics.
 
     Args:
         filename: The name of the CSV file.
@@ -22,7 +22,7 @@ def parse_csv_and_calculate(filename):
     customer_totals = defaultdict(float)
     customer_loyalty_points = defaultdict(int)
     customer_total_items = defaultdict(int)
-    monthly_totals = defaultdict(lambda: {'total_spend': 0, 'points_awarded': 0})
+    monthly_totals = defaultdict(lambda: {'total_spend': 0, 'total_items': 0, 'points_awarded': 0})
     cutoff_date = datetime(2022, 1, 1)
 
     with open(filename, 'r') as csvfile:
@@ -44,7 +44,11 @@ def parse_csv_and_calculate(filename):
 
                 month_year = purchase_date.strftime('%Y-%m')
                 monthly_totals[month_year]['total_spend'] += total_amount
-                monthly_totals[month_year]['points_awarded'] += quantity // 10 + total_amount // 10
+                monthly_totals[month_year]['total_items'] += quantity
+
+    for key,value in monthly_totals.items():
+        a = value['total_spend'] // 10 + value['total_items'] // 10
+        monthly_totals[key]['points_awarded'] += a
 
     # Sort monthly totals by month in ascending order
     monthly_totals = sorted(monthly_totals.items(), key=lambda x: datetime.strptime(x[0], '%Y-%m'))

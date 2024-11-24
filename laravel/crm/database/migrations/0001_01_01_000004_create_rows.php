@@ -81,8 +81,6 @@ return new class extends Migration
   // Return ture if the purchase is valid.
   function validatePurchase($c)
   {
-    $dateString = $c['purchase_date_string'];
-    $dateTime = $c['purchase_date'];
     if (!$this->isValidDate($c['purchase_date_string'], $c['purchase_date'])) return false;
     return true;
   }
@@ -92,7 +90,6 @@ return new class extends Migration
    */
   public function up(): void
   {
-
     // Include auto generated rows.php.  containing the actual data to import.
     include '/users/julian/src/platinum.crm/data/rows.php';
 

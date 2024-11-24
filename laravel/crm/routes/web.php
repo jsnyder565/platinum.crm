@@ -27,7 +27,9 @@ Route::get('/report', function() {
     $months = DB::select(<<<SQL
         select
             year||'-'||month as month,
-            total_customers, total_points, average_spend, total_items, total_revenue
+            total_customers,
+            floor(point_dollars/10) + floor(point_items/10)*10 as total_points,
+            average_spend, total_items, total_revenue
         from 
         (
         SELECT
@@ -36,9 +38,14 @@ Route::get('/report', function() {
             COUNT(DISTINCT c.id) AS total_customers,
             SUM(
                 case 
-                when p.purchase_date>'2022-01-01' THEN ROUND(p.quantity / 10, 0) + ROUND(p.total / 10, 0) else 0
+                when p.purchase_date_string>='2022-01-01 00:00:00' THEN p.quantity else 0
                 end
-            ) AS total_points,
+            ) AS point_items,
+            SUM(
+                case 
+                when p.purchase_date_string>='2022-01-01 00:00:00' THEN p.total else 0
+                end
+            ) AS point_dollars,
             ROUND(AVG(p.total),2) AS average_spend,
             SUM(ROUND(p.quantity, 0)) as total_items,
             SUM(p.total) as total_revenue
